@@ -1,9 +1,8 @@
 from nltk.stem import WordNetLemmatizer
-import time
-import pandas as pd
 
 
 def singular(words):
+    '''Get the singular version of a list of words with NLTK lemmatizer'''
     wnl = WordNetLemmatizer()
     words = words.split(" ")
     ls = []
@@ -19,12 +18,15 @@ def singular(words):
 
 
 def get_items(infile="interest.txt"):
+    '''Get the wikipedia searching term from the Google Ads Interests Categories'''
     with open(infile, 'r') as f:
         data = f.readlines()
 
+    '''Change "&" to "and, because wikipedia API doesn't read &"'''
     data = [x.split(">")[-1].replace('\n', "").replace('&', 'and') for x in data if x != '\n']
 
     return data
 
 
+'''Get the terms of each category, and ready to export'''
 search_terms = get_items()
