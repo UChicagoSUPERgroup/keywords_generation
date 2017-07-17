@@ -1,0 +1,38 @@
+{{Use mdy dates|date=March 2017}}
+{{Infobox Officeholder
+|office             = Provost of the University of Chicago
+|term_start         = July 1, 2016
+|term_end           =
+|predecessor        =[[Eric Isaacs]]
+|successor          =
+|image=20160329 Diermeier 2076.jpg
+|caption =Diermeier in 2016
+|birth_date={{birth date and age|1965|07|16}}<ref name=cv>[http://www.kellogg.northwestern.edu/faculty/directory/~/media/Files/Faculty/Vita/CVs/MEDS/Diermeier_CV_5-7-13.ashx Daniel Diermeier]. kellogg.northwestern.edu</ref>
+|birth_place=[[Berlin]], Germany<ref name=cv/>
+|children=2<ref name=cv/>
+|nationality=American<ref name=cv/>
+}}
+'''Daniel Diermeier''' (born July 16, 1965) is the [[University of Chicago]]’s [[Provost (education)|Provost]]. He succeeded [[Eric Isaacs]] on July 1, 2016.<ref name=":0">{{Cite web|url=https://www.dnainfo.com/chicago/20160331/hyde-park/u-of-c-public-policy-dean-daniel-diermeier-named-new-provost|title=U. of C. Public Policy Dean Daniel Diermeier Named New Provost|website=DNAinfo Chicago|access-date=October 3, 2016}}</ref>
+
+From 2014 to 2016, Diermeier served as Dean of the [[Harris School of Public Policy Studies|Harris School of Public Policy]].<ref name=":0" /> Previously, he taught at [[Northwestern University]]'s [[Kellogg School of Management]] as well as the [[Stanford Graduate School of Business|Graduate School of Business]] at [[Stanford University]]. He holds a Ph.D. in [[political science]] from the [[University of Rochester]].<ref name=":1">{{Cite web|url=http://www.chicagobusiness.com/article/20160331/NEWS13/160339952/u-of-c-taps-public-policy-school-dean-as-new-provost|title=U of C taps public policy school dean as new provost|last=|first=|date=|website=Crain's Chicago Business|publisher=|access-date=October 3, 2016}}</ref>
+
+Diermeier is a member of the [[American Academy of Arts and Sciences]]<ref>{{Cite web|url=https://www.amacad.org/content/news/pressReleases.aspx?pr=198|title=Press Releases – American Academy of Arts & Sciences|access-date=October 3, 2016}}</ref> and a research fellow at the Canadian Institute of Advanced Research (CIFAR).<ref>{{Cite web|url=https://www.cifar.ca/profiles/daniel-diermeier/|title=Daniel Diermeier : CIFAR|website=www.cifar.ca|access-date=October 3, 2016}}</ref> In 2014, he was awarded a [[Guggenheim Fellowship]] in political science.<ref>{{Cite web|url=http://www.gf.org/fellows/all-fellows/daniel-diermeier/|title=John Simon Guggenheim Foundation {{!}}   Daniel  Diermeier|website=www.gf.org|access-date=October 3, 2016}}</ref>
+
+Diermeier’s research interests include [[economics]], [[political theory]], and [[crisis management]].<ref name=":1" /> Outside of academia, he has served in advisory roles to institutions including [[Johnson & Johnson]], [[Accenture]], the [[Chicago|City of Chicago]], the [[Federal Bureau of Investigation]], and [[UnitedHealth Group]].<ref>{{Cite web|url=https://www.chicagomaroon.com/article/2016/4/1/harris-dean-diermeier-will-take-provost-post/|title=Harris Dean Diermeier Will Take Provost Post|last=|first=|date=|website=The Chicago Maroon|publisher=|access-date=October 3, 2016}}</ref>
+
+Diermeier was born in Berin, Germany, and in 1984–1986 completed German National Civil Service in Munich. He is married and has two children.<ref name=cv/>
+
+== References ==
+{{Commons category|Daniel Diermeier}}
+{{reflist}}
+
+{{academic-stub}}
+
+{{DEFAULTSORT:Diermeier, Daniel}}
+[[Category:1965 births]]
+[[Category:Living people]]
+[[Category:University of Chicago faculty]]
+[[Category:German economists]]
+[[Category:American economists]]
+[[Category:German emigrants to the United States]]
+[[Category:People from Berlin]]

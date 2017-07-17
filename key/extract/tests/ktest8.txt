@@ -1,0 +1,9 @@
+The University of Chicago announced last week that four economists will join the economics department’s faculty. Mikhail Golosov and Alexander Torgovitsky will join the faculty this coming July, Simon Mongey in July of 2018, and Peter Hull in July of 2019. 
+
+Golosov was previously a professor of economics at Princeton University and was appointed the Homer J. Livingston Professor in Economics and the College at the University of Chicago. His research focuses primarily on public finance, macroeconomics, and political economy. 
+
+Torgovitsky will join the department as an assistant professor in economics. He previously worked at Northwestern University, and his research has focused on identification and inference problems in microeconometrics. He has recently worked on developing tools for semiparametric nonlinear models where the parameters are partially identified. 
+
+Mongey is a macroeconomist specializing in labor economics and computational economics. Starting this summer, he will be a post-doc at the Federal Reserve Bank of Minneapolis. 
+
+Hull will begin his post-doctoral research at Microsoft Research starting this summer. Beginning the summer of 2018, he will serve as a Becker Friedman Institute Research Fellow. His research has focused on developing novel economic techniques to address policy questions in health care and education. 
