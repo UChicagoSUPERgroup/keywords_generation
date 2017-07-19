@@ -1,0 +1,82 @@
+Health
+Health>Aging & Geriatrics
+Health>Aging & Geriatrics>Alzheimer's Disease
+Health>Alternative & Natural Medicine
+Health>Alternative & Natural Medicine>Acupuncture & Chinese Medicine
+Health>Alternative & Natural Medicine>Cleansing & Detoxification
+Health>Health Conditions
+Health>Health Conditions>AIDS & HIV
+Health>Health Conditions>Allergies
+Health>Health Conditions>Arthritis
+Health>Health Conditions>Cancer
+Health>Health Conditions>Cold & Flu
+Health>Health Conditions>Diabetes
+Health>Health Conditions>Ear Nose & Throat
+Health>Health Conditions>Eating Disorders
+Health>Health Conditions>Endocrine Conditions
+Health>Health Conditions>Endocrine Conditions>Thyroid Conditions
+Health>Health Conditions>GERD & Digestive Disorders
+Health>Health Conditions>Genetic Disorders
+Health>Health Conditions>Heart & Hypertension
+Health>Health Conditions>Infectious Diseases
+Health>Health Conditions>Infectious Diseases>Parasites & Parasitic Diseases
+Health>Health Conditions>Infectious Diseases>Vaccines & Immunizations
+Health>Health Conditions>Injury
+Health>Health Conditions>Neurological Disorders
+Health>Health Conditions>Obesity
+Health>Health Conditions>Pain Management
+Health>Health Conditions>Pain Management>Headaches & Migraines
+Health>Health Conditions>Respiratory Conditions
+Health>Health Conditions>Respiratory Conditions>Asthma
+Health>Health Conditions>Skin Conditions
+Health>Health Conditions>Sleep Disorders
+Health>Health Education & Medical Training
+Health>Health Foundations & Medical Research
+Health>Medical Devices & Equipment
+Health>Medical Devices & Equipment>Assistive Technology
+Health>Medical Devices & Equipment>Assistive Technology>Mobility Equipment & Accessories
+Health>Medical Facilities & Services
+Health>Medical Facilities & Services>Doctors' Offices
+Health>Medical Facilities & Services>Hospitals & Treatment Centers
+Health>Medical Facilities & Services>Medical Procedures
+Health>Medical Facilities & Services>Medical Procedures>Medical Tests & Exams
+Health>Medical Facilities & Services>Medical Procedures>Surgery
+Health>Medical Facilities & Services>Physical Therapy
+Health>Medical Literature & Resources
+Health>Medical Literature & Resources>Medical Photos & Illustration
+Health>Men's Health
+Health>Mental Health
+Health>Mental Health>Anxiety & Stress
+Health>Mental Health>Depression
+Health>Mental Health>Learning & Developmental Disabilities
+Health>Mental Health>Learning & Developmental Disabilities>ADD & ADHD
+Health>Nursing
+Health>Nursing>Assisted Living & Long Term Care
+Health>Nutrition
+Health>Nutrition>Special & Restricted Diets
+Health>Nutrition>Special & Restricted Diets>Cholesterol Issues
+Health>Nutrition>Vitamins & Supplements
+Health>Oral & Dental Care
+Health>Pediatrics
+Health>Pharmacy
+Health>Pharmacy>Drugs & Medications
+Health>Public Health
+Health>Public Health>Health Policy
+Health>Public Health>Occupational Health & Safety
+Health>Public Health>Poisons & Overdoses
+Health>Reproductive Health
+Health>Reproductive Health>Birth Control
+Health>Reproductive Health>Erectile Dysfunction
+Health>Reproductive Health>Infertility
+Health>Reproductive Health>OBGYN
+Health>Reproductive Health>Sex Education & Counseling
+Health>Reproductive Health>Sexual Enhancement
+Health>Reproductive Health>Sexually Transmitted Diseases
+Health>Substance Abuse
+Health>Substance Abuse>Drug & Alcohol Testing
+Health>Substance Abuse>Drug & Alcohol Treatment
+Health>Substance Abuse>Smoking & Smoking Cessation
+Health>Substance Abuse>Steroids & Performance-Enhancing Drugs
+Health>Vision Care
+Health>Vision Care>Eyeglasses & Contacts
+Health>Women's Health

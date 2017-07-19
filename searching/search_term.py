@@ -2,7 +2,11 @@ from nltk.stem import WordNetLemmatizer
 
 
 def singular(words):
-    '''Get the singular version of a list of words with NLTK lemmatizer'''
+
+    '''
+    Get the singular version of a list of words with NLTK lemmatizer
+    '''
+
     wnl = WordNetLemmatizer()
     words = words.split(" ")
     ls = []
@@ -29,4 +33,4 @@ def get_items(infile="interest.txt"):
 
 
 '''Get the terms of each category, and ready to export'''
-search_terms = get_items()
+# search_terms = get_items()

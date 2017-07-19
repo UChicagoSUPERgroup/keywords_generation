@@ -10,7 +10,6 @@ import pandas as pd
 import time
 
 
-
 def timeit(method):
     def timed(*args, **kw):
         ts = time.time()
@@ -59,11 +58,10 @@ def quick_search(pageid):
     position = bisect.bisect(file_list, pageid)
     index = position - 1
     file = file_list[index]
-    ex = get_text(pageid, "data/wikicorpse/" + str(file) + ".txt")
+    ex = get_text(pageid, "/Users/sixiongshan/Desktop/data/wikicorpse/" + str(file) + ".txt")
     if ex is None:
         return ""
     return ex
-
 
 
 def quick_search_ids(lx, n_key=100):
@@ -76,4 +74,3 @@ def quick_search_ids(lx, n_key=100):
     ex = extract(res, n_key)
     ex = [x[0] for x in ex]
     return ex
-

@@ -81,6 +81,7 @@ with open("featureclass", "r") as f:
     data = f.readlines()
 data = [x.replace('\n', "") for x in data]
 
+
 def to_csv(countries, outfile):
     countries = [country for country in countries if is_english(country[0]) and is_english(country[1])]
     new_countries = []
@@ -101,6 +102,7 @@ def to_csv(countries, outfile):
     df = pd.DataFrame(new_countries, columns=["name", "country", "class"])
     df.to_csv(outfile)
 
+
 def get_countries(url):
     country = []
     geonames = urllib.request.urlopen(url).read()
@@ -111,4 +113,6 @@ def get_countries(url):
     text = [x.getText() for x in items]
     with open("co.txt", 'w') as f:
         f.write(",".join(text))
+
+
 get_countries("http://www.geonames.org/advanced-search.html?q=&country=&featureClass=A&continentCode=")

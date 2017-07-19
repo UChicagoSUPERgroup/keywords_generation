@@ -15,7 +15,7 @@ def timeit(method):
     return timed
 
 
-with open("/Users/sixiongshan/Desktop/inferencing_keywords/searching/exclusion/regions.txt", 'r') as f:
+with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/regions.txt", 'r') as f:
     data = f.read()
 data = data.split(", ")
 restring = "|".join(data)
@@ -30,10 +30,10 @@ def is_region(text):
 
 
 def is_spec(text):
-    with open("/Users/sixiongshan/Desktop/inferencing_keywords/searching/exclusion/name.txt", 'r') as f:
+    with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/name.txt", 'r') as f:
         data = f.read()
     data = data.split(", ")
-    with open("/Users/sixiongshan/Desktop/inferencing_keywords/searching/exclusion/exclude_ls.txt", 'r') as f:
+    with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/exclude_ls.txt", 'r') as f:
         data2 = f.read()
 
     ap = ["\.com", "\.net", "Inc\."]
