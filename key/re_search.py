@@ -2,9 +2,9 @@ import re
 import sys
 import os
 import json
+from nltk.stem import WordNetLemmatizer
 
-sys.path.append('extract/')
-from keywords import extract
+from extract.keywords import extract
 import bisect
 import pandas as pd
 import time
@@ -64,8 +64,15 @@ def quick_search(pageid):
     return ex
 
 
-def quick_search_ids(lx, n_key=100):
+def undup(seq):
+    seen = set()
+    seen_add = seen.add
+    return [x for x in seq if not (x in seen or seen_add(x))]
+
+
+def quick_search_ids(lx, n_key=200):
     res = []
+    wnl = WordNetLemmatizer()
     for x in lx:
         x = int(x)
         l = quick_search(x)
@@ -73,4 +80,9 @@ def quick_search_ids(lx, n_key=100):
     res = " ".join(res)
     ex = extract(res, n_key)
     ex = [x[0] for x in ex]
-    return ex
+    keywords = [wnl.lemmatize(word) for word in ex]
+
+    """Dis-order the whole keywords list to remove dupilcates"""
+
+    keywords = undup(keywords)
+    return keywords

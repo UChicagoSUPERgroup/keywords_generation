@@ -3,7 +3,7 @@ import json
 import re
 import sys
 import pandas as pd
-from .re_search import quick_search_ids
+from re_search import quick_search_ids
 
 
 def is_english(word):
@@ -15,7 +15,7 @@ def is_english(word):
 
 
 def get_keywords(infile, outfile):
-    with open("health.txt", 'r') as f:
+    with open("../data/interest.txt", 'r') as f:
         cat = f.read()
     cat = [word for word in cat.split('\n') if word is not ""]
     whole_ls = []
@@ -34,10 +34,10 @@ def get_keywords(infile, outfile):
         whole_ls.append(cur_ls)
 
     df_out = pd.DataFrame(whole_ls, columns=["category", "keywords"])
-    df_out.to_csv("keywords_test_health.csv")
+    df_out.to_csv(outfile)
 
 
-# get_keywords("data.csv", "")
+get_keywords("total_pageids.csv", "total_keywords.csv")
 
 
 
@@ -53,7 +53,9 @@ def post_process(infile, outfile):
 
         df.set_value(i, 'keywords', keyword)
     df = pd.DataFrame({"category": df['category'], "keywords": df['keywords']})
+
     whole_ls = []
+
     for i in range(0, len(df['keywords'])):
         cur_dir = {"category": df['category'][i], "keywords": df['keywords'][i]}
         whole_ls.append(cur_dir)
@@ -63,4 +65,4 @@ def post_process(infile, outfile):
             # df.to_csv(outfile)
 
 
-post_process("keywords_test.csv", "keywords.json")
+# post_process("keywords_test.csv", "keywords.json")

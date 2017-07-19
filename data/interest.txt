@@ -81,6 +81,8 @@ Arts & Entertainment>Music & Audio>Pop Music
 Arts & Entertainment>Music & Audio>Radio
 Arts & Entertainment>Music & Audio>Radio>Podcasting
 Arts & Entertainment>Music & Audio>Radio>Talk Radio
+Arts & Entertainment>Music & Audio>Religious Music
+Arts & Entertainment>Music & Audio>Religious Music>Christian & Gospel Music 
 Arts & Entertainment>Music & Audio>Rock Music
 Arts & Entertainment>Music & Audio>Rock Music>Classic Rock & Oldies
 Arts & Entertainment>Music & Audio>Rock Music>Hard Rock & Progressive
@@ -104,6 +106,8 @@ Arts & Entertainment>Music & Audio>World Music>Latin American Music>Salsa & Trop
 Arts & Entertainment>Music & Audio>World Music>Reggae & Caribbean Music
 Arts & Entertainment>Music & Audio>World Music>South Asian Music
 Arts & Entertainment>Offbeat
+Arts & Entertainment>Offbeat>Edgy & Bizarre
+Arts & Entertainment>Offbeat>Occult & Paranormal 
 Arts & Entertainment>Online Media
 Arts & Entertainment>Online Media>Online Image Galleries
 Arts & Entertainment>Online Media>Webcams & Virtual Tours
@@ -245,12 +249,15 @@ Autos & Vehicles>Vehicle Shows
 Beauty & Fitness
 Beauty & Fitness>Beauty Pageants
 Beauty & Fitness>Body Art
+Beauty & Fitness>Cosmetic Procedures
+Beauty & Fitness>Cosmetic Procedures>Cosmetic Surgery 
 Beauty & Fitness>Cosmetology & Beauty Professionals
 Beauty & Fitness>Face & Body Care
 Beauty & Fitness>Face & Body Care>Hygiene & Toiletries
 Beauty & Fitness>Face & Body Care>Make-Up & Cosmetics
 Beauty & Fitness>Face & Body Care>Perfumes & Fragrances
 Beauty & Fitness>Face & Body Care>Skin & Nail Care
+Beauty & Fitness>Face & Body Care>Unwanted Body & Facial Hair Removal
 Beauty & Fitness>Fashion & Style
 Beauty & Fitness>Fashion & Style>Fashion Designers & Collections
 Beauty & Fitness>Fashion & Style>Fashion Modeling
@@ -261,8 +268,10 @@ Beauty & Fitness>Fitness>Fitness Instruction & Personal Training
 Beauty & Fitness>Fitness>Gyms & Health Clubs
 Beauty & Fitness>Fitness>Yoga & Pilates
 Beauty & Fitness>Hair Care
+Beauty & Fitness>Hair Care>Hair Loss
 Beauty & Fitness>Spas & Beauty Services
 Beauty & Fitness>Spas & Beauty Services>Massage Therapy
+Beauty & Fitness>Weight Loss
 
 Books & Literature
 Books & Literature>Book Retailers
@@ -316,7 +325,7 @@ Business & Industrial>Business Operations>Management>Supply Chain Management
 Business & Industrial>Business Services
 Business & Industrial>Business Services>Consulting
 Business & Industrial>Business Services>Corporate Events
-Business & Industrial>Business Services>Corporate Events>Trade Fairs & Industry Shows
+Business & Industrial>Business Services>Corporate Events>Trade Shows & Conventions
 Business & Industrial>Business Services>E-Commerce Services
 Business & Industrial>Business Services>E-Commerce Services>Merchant Services & Payment Systems
 Business & Industrial>Business Services>Fire & Security Services
@@ -483,8 +492,9 @@ Computers & Electronics>Networking>Networking Equipment
 Computers & Electronics>Networking>VPN & Remote Access
 Computers & Electronics>Programming
 Computers & Electronics>Programming>C & C++
+Computers & Electronics>Programming>Developer Jobs
 Computers & Electronics>Programming>Development Tools
-Computers & Electronics>Programming>Java (Programming Language)
+Computers & Electronics>Programming>Java
 Computers & Electronics>Programming>Scripting Languages
 Computers & Electronics>Programming>Windows & .NET
 Computers & Electronics>Software
@@ -555,6 +565,7 @@ Finance>Grants, Scholarships & Financial Aid
 Finance>Grants, Scholarships & Financial Aid>Government Grants
 Finance>Grants, Scholarships & Financial Aid>Study Grants & Scholarships
 Finance>Insurance
+Finance>Insurance>Auto Insurance
 Finance>Insurance>Health Insurance
 Finance>Insurance>Home Insurance
 Finance>Insurance>Life Insurance
@@ -575,9 +586,13 @@ Finance>Investing>Socially Responsible Investing
 Finance>Investing>Stocks & Bonds
 Finance>Investing>Stocks & Bonds>Bonds
 Finance>Investing>Stocks & Bonds>Exchanges
+Finance>Retirement & Pension
 
 Food & Drink
 Food & Drink>Beverages
+Food & Drink>Beverages>Alcoholic Beverages
+Food & Drink>Beverages>Alcoholic Beverages>Beer
+Food & Drink>Beverages>Alcoholic Beverages>Wine
 Food & Drink>Beverages>Bottled Water
 Food & Drink>Beverages>Coffee & Tea
 Food & Drink>Beverages>Coffee & Tea>Coffee
@@ -693,6 +708,89 @@ Games>Table Games>Table Tennis
 Games>Tile Games
 Games>Word Games
 
+Health
+Health>Aging & Geriatrics
+Health>Aging & Geriatrics>Alzheimer's Disease
+Health>Alternative & Natural Medicine
+Health>Alternative & Natural Medicine>Acupuncture & Chinese Medicine
+Health>Alternative & Natural Medicine>Cleansing & Detoxification
+Health>Health Conditions
+Health>Health Conditions>AIDS & HIV
+Health>Health Conditions>Allergies
+Health>Health Conditions>Arthritis
+Health>Health Conditions>Cancer
+Health>Health Conditions>Cold & Flu
+Health>Health Conditions>Diabetes
+Health>Health Conditions>Ear Nose & Throat
+Health>Health Conditions>Eating Disorders
+Health>Health Conditions>Endocrine Conditions
+Health>Health Conditions>Endocrine Conditions>Thyroid Conditions
+Health>Health Conditions>GERD & Digestive Disorders
+Health>Health Conditions>Genetic Disorders
+Health>Health Conditions>Heart & Hypertension
+Health>Health Conditions>Infectious Diseases
+Health>Health Conditions>Infectious Diseases>Parasites & Parasitic Diseases
+Health>Health Conditions>Infectious Diseases>Vaccines & Immunizations
+Health>Health Conditions>Injury
+Health>Health Conditions>Neurological Disorders
+Health>Health Conditions>Obesity
+Health>Health Conditions>Pain Management
+Health>Health Conditions>Pain Management>Headaches & Migraines
+Health>Health Conditions>Respiratory Conditions
+Health>Health Conditions>Respiratory Conditions>Asthma
+Health>Health Conditions>Skin Conditions
+Health>Health Conditions>Sleep Disorders
+Health>Health Education & Medical Training
+Health>Health Foundations & Medical Research
+Health>Medical Devices & Equipment
+Health>Medical Devices & Equipment>Assistive Technology
+Health>Medical Devices & Equipment>Assistive Technology>Mobility Equipment & Accessories
+Health>Medical Facilities & Services
+Health>Medical Facilities & Services>Doctors' Offices
+Health>Medical Facilities & Services>Hospitals & Treatment Centers
+Health>Medical Facilities & Services>Medical Procedures
+Health>Medical Facilities & Services>Medical Procedures>Medical Tests & Exams
+Health>Medical Facilities & Services>Medical Procedures>Surgery
+Health>Medical Facilities & Services>Physical Therapy
+Health>Medical Literature & Resources
+Health>Medical Literature & Resources>Medical Photos & Illustration
+Health>Men's Health
+Health>Mental Health
+Health>Mental Health>Anxiety & Stress
+Health>Mental Health>Depression
+Health>Mental Health>Learning & Developmental Disabilities
+Health>Mental Health>Learning & Developmental Disabilities>ADD & ADHD
+Health>Nursing
+Health>Nursing>Assisted Living & Long Term Care
+Health>Nutrition
+Health>Nutrition>Special & Restricted Diets
+Health>Nutrition>Special & Restricted Diets>Cholesterol Issues
+Health>Nutrition>Vitamins & Supplements
+Health>Oral & Dental Care
+Health>Pediatrics
+Health>Pharmacy
+Health>Pharmacy>Drugs & Medications
+Health>Public Health
+Health>Public Health>Health Policy
+Health>Public Health>Occupational Health & Safety
+Health>Public Health>Poisons & Overdoses
+Health>Reproductive Health
+Health>Reproductive Health>Birth Control
+Health>Reproductive Health>Erectile Dysfunction
+Health>Reproductive Health>Infertility
+Health>Reproductive Health>OBGYN
+Health>Reproductive Health>Sex Education & Counseling
+Health>Reproductive Health>Sexual Enhancement
+Health>Reproductive Health>Sexually Transmitted Diseases
+Health>Substance Abuse
+Health>Substance Abuse>Drug & Alcohol Testing
+Health>Substance Abuse>Drug & Alcohol Treatment
+Health>Substance Abuse>Smoking & Smoking Cessation
+Health>Substance Abuse>Steroids & Performance-Enhancing Drugs
+Health>Vision Care
+Health>Vision Care>Eyeglasses & Contacts
+Health>Women's Health
+
 Hobbies & Leisure
 Hobbies & Leisure>Clubs & Organizations
 Hobbies & Leisure>Clubs & Organizations>Fraternal Orders & Service Clubs
@@ -714,7 +812,12 @@ Hobbies & Leisure>Special Occasions
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Birthdays & Name Days
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Carnival & Mardi Gras
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays>Christmas
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays>Easter 
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Halloween & October 31st
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Islamic Holidays
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Jewish Holidays 
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>New Year
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Thanksgiving
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Valentine's Day
@@ -862,12 +965,19 @@ Law & Government>Government>Royalty
 Law & Government>Government>State & Local Government
 Law & Government>Government>Visa & Immigration
 Law & Government>Legal
+Law & Government>Legal>Accident & Personal Injury Law
+Law & Government>Legal>Bankruptcy 
 Law & Government>Legal>Business & Corporate Law
+Law & Government>Legal>Constitutional Law & Civil Rights
+Law & Government>Legal>Criminal Law
+Law & Government>Legal>Family Law 
 Law & Government>Legal>Intellectual Property
 Law & Government>Legal>Labor & Employment Law
 Law & Government>Legal>Legal Education
 Law & Government>Legal>Legal Services
 Law & Government>Legal>Product Liability
+Law & Government>Legal>Vehicle Codes & Driving Laws
+Law & Government>Legal>Vehicle Codes & Driving Laws>Drunk Driving Law 
 Law & Government>Military
 Law & Government>Military>Air Force
 Law & Government>Military>Army
@@ -878,9 +988,13 @@ Law & Government>Public Safety
 Law & Government>Public Safety>Crime & Justice
 Law & Government>Public Safety>Crime & Justice>Corporate & Financial Crime
 Law & Government>Public Safety>Crime & Justice>Gangs & Organized Crime
+Law & Government>Public Safety>Crime & Justice>Prisons & Corrections
 Law & Government>Public Safety>Emergency Services
 Law & Government>Public Safety>Law Enforcement
 Law & Government>Public Safety>Security Products & Services
+Law & Government>Social Services
+Law & Government>Social Services>Counseling Services
+Law & Government>Social Services>Welfare & Unemployment 
 
 News
 News>Broadcast & Network News
@@ -899,6 +1013,11 @@ News>Local News
 News>Newspapers
 News>Politics
 News>Politics>Campaigns & Elections
+News>Politics>Left-Wing Politics
+News>Politics>Media Critics & Watchdogs
+News>Politics>Opinion & Commentary
+News>Politics>Political Polls & Surveys
+News>Politics>Right-Wing Politics 
 News>Sports News
 News>Technology News
 News>Weather
@@ -908,6 +1027,8 @@ Online Communities
 Online Communities>Blogging Resources & Services
 Online Communities>Blogging Resources & Services>Microblogging
 Online Communities>Dating & Personals
+Online Communities>Dating & Personals>Matrimonial Services
+Online Communities>Dating & Personals>Personals 
 Online Communities>Dating & Personals>Photo Rating Sites
 Online Communities>Feed Aggregation & Social Bookmarking
 Online Communities>File Sharing & Hosting
@@ -924,6 +1045,23 @@ Online Communities>Social Networks
 Online Communities>Virtual Worlds
 
 People & Society
+People & Society>Disabled & Special Needs
+People & Society>Ethnic & Identity Groups
+People & Society>Ethnic & Identity Groups>Africans & Diaspora
+People & Society>Ethnic & Identity Groups>Africans & Diaspora>African-Americans
+People & Society>Ethnic & Identity Groups>Arabs & Middle Easterners
+People & Society>Ethnic & Identity Groups>Asians & Diaspora
+People & Society>Ethnic & Identity Groups>Asians & Diaspora>East Asians & Diaspora
+People & Society>Ethnic & Identity Groups>Asians & Diaspora>South Asians & Diaspora
+People & Society>Ethnic & Identity Groups>Asians & Diaspora>Southeast Asians & Pacific Islanders
+People & Society>Ethnic & Identity Groups>Eastern Europeans
+People & Society>Ethnic & Identity Groups>Expatriate Communities
+People & Society>Ethnic & Identity Groups>Gay-Lesbian-Bisexual-Transgender
+People & Society>Ethnic & Identity Groups>Indigenous Peoples
+People & Society>Ethnic & Identity Groups>Indigenous Peoples>Native Americans
+People & Society>Ethnic & Identity Groups>Jewish Culture
+People & Society>Ethnic & Identity Groups>Latinos & Latin-Americans
+People & Society>Ethnic & Identity Groups>Western Europeans 
 People & Society>Family & Relationships
 People & Society>Family & Relationships>Etiquette
 People & Society>Family & Relationships>Family
@@ -936,18 +1074,41 @@ People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby 
 People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby Care & Hygiene
 People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby Food & Formula
 People & Society>Family & Relationships>Family>Parenting>Child Care
+People & Society>Family & Relationships>Family>Parenting>Pregnancy & Maternity
 People & Society>Family & Relationships>Family>Parenting>Youth Camps
 People & Society>Family & Relationships>Friendship
 People & Society>Family & Relationships>Marriage
 People & Society>Family & Relationships>Romance
+People & Society>Family & Relationships>Troubled Relationships
+People & Society>Family & Relationships>Troubled Relationships>Divorce & Separation 
 People & Society>Men's Interests
+People & Society>Men's Interests>Men's Interests (Mature)
+People & Society>Religion & Belief
+People & Society>Religion & Belief>Astrology & Divination
+People & Society>Religion & Belief>Buddhism
+People & Society>Religion & Belief>Christianity
+People & Society>Religion & Belief>Hinduism
+People & Society>Religion & Belief>Islam
+People & Society>Religion & Belief>Judaism
+People & Society>Religion & Belief>Pagan & Esoteric Traditions
+People & Society>Religion & Belief>Places of Worship
+People & Society>Religion & Belief>Scientology
+People & Society>Religion & Belief>Self-Help & Motivational
+People & Society>Religion & Belief>Skeptics & Non-Believers
+People & Society>Religion & Belief>Spirituality
+People & Society>Religion & Belief>Theology & Religious Study
+People & Society>Seniors & Retirement 
 People & Society>Social Issues & Advocacy
 People & Society>Social Issues & Advocacy>Charity & Philanthropy
+People & Society>Social Issues & Advocacy>Discrimination & Identity Relations
 People & Society>Social Issues & Advocacy>Drug Laws & Policy
 People & Society>Social Issues & Advocacy>Ethics
 People & Society>Social Issues & Advocacy>Green Living & Environmental Issues
+People & Society>Social Issues & Advocacy>Housing & Development
 People & Society>Social Issues & Advocacy>Immigration Policy & Border Issues
 People & Society>Social Issues & Advocacy>Privacy Issues
+People & Society>Social Issues & Advocacy>Reproductive Rights
+People & Society>Social Issues & Advocacy>Same-Sex Marriage 
 People & Society>Social Issues & Advocacy>Work & Labor Issues
 People & Society>Social Issues & Advocacy>Work & Labor Issues>Unions & Labor Movement
 People & Society>Social Sciences
@@ -982,6 +1143,7 @@ Pets & Animals>Wildlife
 
 Real Estate
 Real Estate>Apartments & Residential Rentals
+Real Estate>Bank-Owned & Foreclosed Properties
 Real Estate>Commercial & Investment Real Estate
 Real Estate>Property Development
 Real Estate>Property Inspections & Appraisals
@@ -1027,6 +1189,7 @@ Science>Biological Sciences
 Science>Biological Sciences>Anatomy
 Science>Biological Sciences>Flora & Fauna
 Science>Biological Sciences>Flora & Fauna>Insects & Entomology
+Science>Biological Sciences>Genetics
 Science>Biological Sciences>Neuroscience
 Science>Chemistry
 Science>Computer Science
@@ -1194,7 +1357,7 @@ Travel>Air Travel
 Travel>Air Travel>Airport Parking & Transportation
 Travel>Bus & Rail
 Travel>Car Rental & Taxi Services
-Travel>Carpooling & Vehicle Sharing
+Travel>Carpooling & Ridesharing
 Travel>Cruises & Charters
 Travel>Hotels & Accommodations
 Travel>Luggage & Travel Accessories

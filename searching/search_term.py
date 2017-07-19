@@ -2,7 +2,6 @@ from nltk.stem import WordNetLemmatizer
 
 
 def singular(words):
-
     '''
     Get the singular version of a list of words with NLTK lemmatizer
     '''

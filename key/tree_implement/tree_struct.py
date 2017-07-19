@@ -37,10 +37,9 @@ def find_and_add_child(cat, child, tree):
             find_and_add_child(cat, child, c)
 
 
-df = pd.DataFrame(pd.read_csv("keywords_combined_300.csv"))
+def build_category_tree(infile):
+    df = pd.DataFrame(pd.read_json(infile))
 
-
-def build_category_tree(df):
     """
     Assumes input file is formatted as follows:
     Category1>Category2>...>CategoryX ...
@@ -56,7 +55,6 @@ def build_category_tree(df):
     for i in range(0, len(data)):
         line = data[i]
         keyword_cur = keywords[i]
-        keyword_cur = re.findall(r"\(.(.*?).,", keyword_cur)
 
         if line == "":
             continue
@@ -75,8 +73,10 @@ def build_category_tree(df):
     return tree
 
 
-tree = build_category_tree(df)
+tree = build_category_tree("keywords.json")
 print_tree(tree)
+
+
 
 def clean(tree):
     if tree.children != []:
@@ -110,7 +110,7 @@ def merge_tree(tree, n_key=500):
         merge_tree(c)
 
     n_children = len(tree.children)
-    for i in range(0, n_key*n_children):
+    for i in range(0, n_key * n_children):
         index = i % n_children
         ind = math.floor(i / n_children)
         cur = tree.children[index]
@@ -118,6 +118,7 @@ def merge_tree(tree, n_key=500):
             cur_keys = cur.keywords[ind]
         except IndexError:
             print(ind)
+            exit(1)
         keys.append(cur_keys)
 
     s = set(keys)
@@ -127,7 +128,7 @@ def merge_tree(tree, n_key=500):
     return tree
 
 
-tree = merge_tree(tree)
+# tree = merge_tree(tree)
 
 
 def count_tree(tr):
@@ -151,15 +152,6 @@ def to_list(tr):
     return ls_keywords
 
 
-cat = []
-for i in df["category"]:
-    # try:
-    #     float(i)
-    # except ValueError:
-    #     cat.append(i)
-    cat.append(i)
-
-
 def leaves(tree):
     ls = tree.keywords
     for c in tree.children:
@@ -176,12 +168,11 @@ def score(tree):
     l_set = len(ls)
     return 1 - ((l_list - l_set) / l_list)
 
-
-def merge_tree_file(tree, outfile):
-    tree = clean(tree)
-    tree = merge_tree(tree, 300)
-    df2 = pd.DataFrame({"Category": cat, "keywords": to_list(tree)[1:]})
-    df2.to_csv(outfile)
-
+#
+# def merge_tree_file(tree, outfile):
+#     tree = clean(tree)
+#     tree = merge_tree(tree, 300)
+#     df2 = pd.DataFrame({"Category": cat, "keywords": to_list(tree)[1:]})
+#     df2.to_csv(outfile)
 
 # merge_tree_file(tree, "merge_300.csv")
