@@ -21,28 +21,70 @@ data = data.split(", ")
 restring = "|".join(data)
 
 
+def preprocess(text):
+    '''Get only Captial Letters from the text'''
+    caps = re.findall(r"[A-Z][a-z]+", text)
+    caps = [word for word in caps if len(word) > 2]
+    text = " ".join(caps)
+    text = text.strip()
+    return text
+
+
 def is_region(text):
-    region = re.search(restring, text)
-    if region is None:
-        return False
-    else:
-        return True
+
+    '''Search through the text for max two words'''
+
+    text = preprocess(text)
+
+    ls = text.split(" ")
+    i = 0
+    while True:
+        if i >= len(ls):
+            break
+
+        if i <= len(ls) - 2:
+
+            two_combined = " ".join([ls[i], ls[i + 1]])
+            st = two_combined + "|"
+            if st in restring:
+                return True
+
+        st = ls[i] + "|"
+        if st in restring:
+            return True
+
+        i += 1
+
+    return False
+
+
+with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/name.txt", 'r') as f:
+    names = f.read()
+
+restring_name = "|".join(names.split(", "))
+
+with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/exclude_ls.txt",
+          'r') as f:
+    data2 = f.read()
+
+ap = ["\.com", "\.net", "Inc\."]
+data = data2.split(", ") + ap
+
+rstring = '|'.join(data)
 
 
 def is_spec(text):
-    with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/name.txt", 'r') as f:
-        data = f.read()
-    data = data.split(", ")
-    with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/exclude_ls.txt", 'r') as f:
-        data2 = f.read()
+    name_text = preprocess(text).split(" ")
 
-    ap = ["\.com", "\.net", "Inc\."]
-    data += data2.split(", ") + ap
+    for word in name_text:
 
-    rstring = '|'.join(data)
+        word = "|" + word + "|"
+        if word in restring_name:
+            return True
 
-    region = re.search(rstring, text)
-    if region is None:
+    spec = re.search(rstring, text)
+
+    if spec is None:
         return False
     else:
         return True

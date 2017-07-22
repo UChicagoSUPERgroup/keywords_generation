@@ -70,7 +70,7 @@ def undup(seq):
     return [x for x in seq if not (x in seen or seen_add(x))]
 
 
-def quick_search_ids(lx, n_key=200):
+def quick_search_ids(lx, n_key=500):
     res = []
     wnl = WordNetLemmatizer()
     for x in lx:
@@ -85,4 +85,9 @@ def quick_search_ids(lx, n_key=200):
     """Dis-order the whole keywords list to remove dupilcates"""
 
     keywords = undup(keywords)
+
     return keywords
+
+
+def anaylsis(infile, outfile):
+    df = pd.DataFrame(pd.read_json(infile))

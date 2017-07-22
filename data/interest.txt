@@ -12,14 +12,12 @@ Arts & Entertainment>Entertainment Industry>Recording Industry
 Arts & Entertainment>Entertainment Industry>Recording Industry>Music Awards
 Arts & Entertainment>Entertainment Industry>Recording Industry>Record Labels
 Arts & Entertainment>Events & Listings
-Arts & Entertainment>Events & Listings>Bars, Clubs & Nightlife
+Arts & Entertainment>Events & Listings>Clubs & Nightlife
 Arts & Entertainment>Events & Listings>Concerts & Music Festivals
-Arts & Entertainment>Events & Listings>Event Ticket Sales
-Arts & Entertainment>Events & Listings>Expos & Conventions
 Arts & Entertainment>Events & Listings>Film Festivals
-Arts & Entertainment>Events & Listings>Food & Beverage Events
 Arts & Entertainment>Events & Listings>Live Sporting Events
 Arts & Entertainment>Events & Listings>Movie Listings & Theater Showtimes
+Arts & Entertainment>Events & Listings>Ticket Sales
 Arts & Entertainment>Fun & Trivia
 Arts & Entertainment>Fun & Trivia>Flash-Based Entertainment
 Arts & Entertainment>Fun & Trivia>Fun Tests & Silly Surveys
@@ -76,13 +74,12 @@ Arts & Entertainment>Music & Audio>Music Reference>Music Composition & Theory
 Arts & Entertainment>Music & Audio>Music Reference>Sheet Music
 Arts & Entertainment>Music & Audio>Music Reference>Song Lyrics & Tabs
 Arts & Entertainment>Music & Audio>Music Streams & Downloads
-Arts & Entertainment>Music & Audio>Music Videos
 Arts & Entertainment>Music & Audio>Pop Music
 Arts & Entertainment>Music & Audio>Radio
 Arts & Entertainment>Music & Audio>Radio>Podcasting
 Arts & Entertainment>Music & Audio>Radio>Talk Radio
 Arts & Entertainment>Music & Audio>Religious Music
-Arts & Entertainment>Music & Audio>Religious Music>Christian & Gospel Music 
+Arts & Entertainment>Music & Audio>Religious Music>Christian & Gospel Music
 Arts & Entertainment>Music & Audio>Rock Music
 Arts & Entertainment>Music & Audio>Rock Music>Classic Rock & Oldies
 Arts & Entertainment>Music & Audio>Rock Music>Hard Rock & Progressive
@@ -107,26 +104,22 @@ Arts & Entertainment>Music & Audio>World Music>Reggae & Caribbean Music
 Arts & Entertainment>Music & Audio>World Music>South Asian Music
 Arts & Entertainment>Offbeat
 Arts & Entertainment>Offbeat>Edgy & Bizarre
-Arts & Entertainment>Offbeat>Occult & Paranormal 
+Arts & Entertainment>Offbeat>Occult & Paranormal
 Arts & Entertainment>Online Media
 Arts & Entertainment>Online Media>Online Image Galleries
 Arts & Entertainment>Online Media>Webcams & Virtual Tours
 Arts & Entertainment>Performing Arts
 Arts & Entertainment>Performing Arts>Acting & Theater
 Arts & Entertainment>Performing Arts>Broadway & Musical Theater
-Arts & Entertainment>Performing Arts>Circus
 Arts & Entertainment>Performing Arts>Dance
-Arts & Entertainment>Performing Arts>Magic
 Arts & Entertainment>Performing Arts>Opera
 Arts & Entertainment>TV & Video
 Arts & Entertainment>TV & Video>Online Video
-Arts & Entertainment>TV & Video>Online Video>Web Series
 Arts & Entertainment>TV & Video>TV Commercials
 Arts & Entertainment>TV & Video>TV Guides & Reference
 Arts & Entertainment>TV & Video>TV Networks & Stations
 Arts & Entertainment>TV & Video>TV Shows & Programs
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Comedies
-Arts & Entertainment>TV & Video>TV Shows & Programs>TV Documentary & Nonfiction
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Dramas
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Dramas>TV Crime & Legal Shows
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Dramas>TV Medical Shows
@@ -135,12 +128,10 @@ Arts & Entertainment>TV & Video>TV Shows & Programs>TV Family-Oriented Shows
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Game Shows
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Reality Shows
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Sci-Fi & Fantasy Shows
-Arts & Entertainment>TV & Video>TV Shows & Programs>TV Talent & Variety Shows
 Arts & Entertainment>TV & Video>TV Shows & Programs>TV Talk Shows
 Arts & Entertainment>Visual Art & Design
 Arts & Entertainment>Visual Art & Design>Architecture
 Arts & Entertainment>Visual Art & Design>Art & Craft Supplies
-Arts & Entertainment>Visual Art & Design>Art Museums & Galleries
 Arts & Entertainment>Visual Art & Design>Arts Education
 Arts & Entertainment>Visual Art & Design>Design
 Arts & Entertainment>Visual Art & Design>Design>Graphic Design
@@ -148,20 +139,8 @@ Arts & Entertainment>Visual Art & Design>Design>Industrial & Product Design
 Arts & Entertainment>Visual Art & Design>Design>Interior Design
 Arts & Entertainment>Visual Art & Design>Painting
 Arts & Entertainment>Visual Art & Design>Photographic & Digital Arts
-Arts & Entertainment>Visual Art & Design>Sculpture
-
 Autos & Vehicles
 Autos & Vehicles>Bicycles & Accessories
-Autos & Vehicles>Bicycles & Accessories>BMX Bikes
-Autos & Vehicles>Bicycles & Accessories>Bike Accessories
-Autos & Vehicles>Bicycles & Accessories>Bike Frames
-Autos & Vehicles>Bicycles & Accessories>Bike Helmets & Protective Gear
-Autos & Vehicles>Bicycles & Accessories>Bike Parts & Repair
-Autos & Vehicles>Bicycles & Accessories>Cruiser Bikes
-Autos & Vehicles>Bicycles & Accessories>Cycling Apparel
-Autos & Vehicles>Bicycles & Accessories>Kid's Bikes
-Autos & Vehicles>Bicycles & Accessories>Mountain Bikes
-Autos & Vehicles>Bicycles & Accessories>Road Bikes
 Autos & Vehicles>Boats & Watercraft
 Autos & Vehicles>Campers & RVs
 Autos & Vehicles>Classic Vehicles
@@ -192,7 +171,6 @@ Autos & Vehicles>Vehicle Brands>Citroën
 Autos & Vehicles>Vehicle Brands>Dodge
 Autos & Vehicles>Vehicle Brands>Ferrari
 Autos & Vehicles>Vehicle Brands>Fiat
-Autos & Vehicles>Vehicle Brands>Fiat>Alfa Romeo
 Autos & Vehicles>Vehicle Brands>Ford
 Autos & Vehicles>Vehicle Brands>GM-Daewoo
 Autos & Vehicles>Vehicle Brands>GMC
@@ -220,7 +198,6 @@ Autos & Vehicles>Vehicle Brands>Pontiac
 Autos & Vehicles>Vehicle Brands>Porsche
 Autos & Vehicles>Vehicle Brands>Renault-Samsung
 Autos & Vehicles>Vehicle Brands>Rolls-Royce
-Autos & Vehicles>Vehicle Brands>SEAT
 Autos & Vehicles>Vehicle Brands>Saab
 Autos & Vehicles>Vehicle Brands>Saturn
 Autos & Vehicles>Vehicle Brands>Subaru
@@ -230,10 +207,7 @@ Autos & Vehicles>Vehicle Brands>Toyota>Scion
 Autos & Vehicles>Vehicle Brands>Vauxhall-Opel
 Autos & Vehicles>Vehicle Brands>Volkswagen
 Autos & Vehicles>Vehicle Brands>Volvo
-Autos & Vehicles>Vehicle Codes & Driving Laws
-Autos & Vehicles>Vehicle Codes & Driving Laws>Vehicle & Traffic Safety
-Autos & Vehicles>Vehicle Codes & Driving Laws>Vehicle Licensing & Registration
-Autos & Vehicles>Vehicle Codes & Driving Laws>Vehicle Licensing & Registration>Driving Instruction & Driver Education
+Autos & Vehicles>Vehicle Licensing & Registration
 Autos & Vehicles>Vehicle Maintenance
 Autos & Vehicles>Vehicle Parts & Accessories
 Autos & Vehicles>Vehicle Parts & Accessories>Auto Exterior
@@ -245,12 +219,11 @@ Autos & Vehicles>Vehicle Shopping
 Autos & Vehicles>Vehicle Shopping>Fuel Economy & Gas Prices
 Autos & Vehicles>Vehicle Shopping>Vehicle Specs, Reviews & Comparisons
 Autos & Vehicles>Vehicle Shows
-
 Beauty & Fitness
 Beauty & Fitness>Beauty Pageants
 Beauty & Fitness>Body Art
 Beauty & Fitness>Cosmetic Procedures
-Beauty & Fitness>Cosmetic Procedures>Cosmetic Surgery 
+Beauty & Fitness>Cosmetic Procedures>Cosmetic Surgery
 Beauty & Fitness>Cosmetology & Beauty Professionals
 Beauty & Fitness>Face & Body Care
 Beauty & Fitness>Face & Body Care>Hygiene & Toiletries
@@ -263,16 +236,12 @@ Beauty & Fitness>Fashion & Style>Fashion Designers & Collections
 Beauty & Fitness>Fashion & Style>Fashion Modeling
 Beauty & Fitness>Fitness
 Beauty & Fitness>Fitness>Bodybuilding
-Beauty & Fitness>Fitness>Fitness Equipment & Accessories
-Beauty & Fitness>Fitness>Fitness Instruction & Personal Training
-Beauty & Fitness>Fitness>Gyms & Health Clubs
 Beauty & Fitness>Fitness>Yoga & Pilates
 Beauty & Fitness>Hair Care
 Beauty & Fitness>Hair Care>Hair Loss
 Beauty & Fitness>Spas & Beauty Services
 Beauty & Fitness>Spas & Beauty Services>Massage Therapy
 Beauty & Fitness>Weight Loss
-
 Books & Literature
 Books & Literature>Book Retailers
 Books & Literature>Children's Literature
@@ -282,14 +251,10 @@ Books & Literature>Literary Classics
 Books & Literature>Magazines
 Books & Literature>Poetry
 Books & Literature>Writers Resources
-
 Business & Industrial
 Business & Industrial>Advertising & Marketing
-Business & Industrial>Advertising & Marketing>Brand Management
-Business & Industrial>Advertising & Marketing>Marketing
-Business & Industrial>Advertising & Marketing>Promotional Items & Corporate Gifts
+Business & Industrial>Advertising & Marketing>Marketing Services
 Business & Industrial>Advertising & Marketing>Public Relations
-Business & Industrial>Advertising & Marketing>Sales
 Business & Industrial>Advertising & Marketing>Telemarketing
 Business & Industrial>Aerospace & Defense
 Business & Industrial>Aerospace & Defense>Defense Industry
@@ -298,7 +263,6 @@ Business & Industrial>Agriculture & Forestry
 Business & Industrial>Agriculture & Forestry>Agricultural Equipment
 Business & Industrial>Agriculture & Forestry>Aquaculture
 Business & Industrial>Agriculture & Forestry>Crops & Seed
-Business & Industrial>Agriculture & Forestry>Farms & Ranches
 Business & Industrial>Agriculture & Forestry>Food Production
 Business & Industrial>Agriculture & Forestry>Forestry
 Business & Industrial>Agriculture & Forestry>Horticulture
@@ -358,9 +322,6 @@ Business & Industrial>Energy & Utilities>Electricity
 Business & Industrial>Energy & Utilities>Nuclear Energy
 Business & Industrial>Energy & Utilities>Oil & Gas
 Business & Industrial>Energy & Utilities>Renewable & Alternative Energy
-Business & Industrial>Energy & Utilities>Renewable & Alternative Energy>Hydropower
-Business & Industrial>Energy & Utilities>Renewable & Alternative Energy>Solar Power
-Business & Industrial>Energy & Utilities>Renewable & Alternative Energy>Wind Power
 Business & Industrial>Energy & Utilities>Waste Management
 Business & Industrial>Energy & Utilities>Waste Management>Recycling
 Business & Industrial>Energy & Utilities>Water Supply & Treatment
@@ -376,7 +337,6 @@ Business & Industrial>Industrial Materials & Equipment>Heavy Machinery
 Business & Industrial>Manufacturing
 Business & Industrial>Manufacturing>Factory Automation
 Business & Industrial>Metals & Mining
-Business & Industrial>Metals & Mining>Precious Metals
 Business & Industrial>Pharmaceuticals & Biotech
 Business & Industrial>Printing & Publishing
 Business & Industrial>Printing & Publishing>Document & Printing Services
@@ -403,8 +363,6 @@ Business & Industrial>Transportation & Logistics>Parking
 Business & Industrial>Transportation & Logistics>Public Storage
 Business & Industrial>Transportation & Logistics>Rail Transport
 Business & Industrial>Transportation & Logistics>Urban Transport
-Business & Industrial>Transportation & Logistics>Warehousing
-
 Computers & Electronics
 Computers & Electronics>CAD & CAM
 Computers & Electronics>Computer Hardware
@@ -510,7 +468,6 @@ Computers & Electronics>Software>Educational Software
 Computers & Electronics>Software>Freeware & Shareware
 Computers & Electronics>Software>Internet Software
 Computers & Electronics>Software>Internet Software>Content Management
-Computers & Electronics>Software>Internet Software>Download Managers
 Computers & Electronics>Software>Internet Software>Internet Clients & Browsers
 Computers & Electronics>Software>Internet Software>Proxying & Filtering
 Computers & Electronics>Software>Multimedia Software
@@ -527,144 +484,48 @@ Computers & Electronics>Software>Operating Systems
 Computers & Electronics>Software>Operating Systems>Linux & Unix
 Computers & Electronics>Software>Operating Systems>Mac OS
 Computers & Electronics>Software>Operating Systems>Mobile OS
-Computers & Electronics>Software>Operating Systems>Mobile OS>Android OS
-Computers & Electronics>Software>Operating Systems>Mobile OS>Apple iOS
-Computers & Electronics>Software>Operating Systems>Mobile OS>BlackBerry OS
-Computers & Electronics>Software>Operating Systems>Mobile OS>Symbian OS
-Computers & Electronics>Software>Operating Systems>Mobile OS>Windows Mobile OS
 Computers & Electronics>Software>Operating Systems>Windows OS
 Computers & Electronics>Software>Software Utilities
-
 Finance
 Finance>Accounting & Auditing
-Finance>Accounting & Auditing>Billing & Invoicing
-Finance>Accounting & Auditing>Bookkeeping
 Finance>Accounting & Auditing>Tax Preparation & Planning
 Finance>Banking
-Finance>Banking>ATMs & Branch Locations
-Finance>Banking>Debit & Checking Services
-Finance>Banking>Money Transfer & Wire Services
-Finance>Banking>Savings Accounts
 Finance>Credit & Lending
+Finance>Credit & Lending>Auto Financing
+Finance>Credit & Lending>College Financing
 Finance>Credit & Lending>Credit Cards
-Finance>Credit & Lending>Credit Reporting & Monitoring
-Finance>Credit & Lending>Loans
-Finance>Credit & Lending>Loans>Home Financing
-Finance>Credit & Lending>Loans>Home Financing>Home Equity Loans & Lines of Credit
-Finance>Credit & Lending>Loans>Home Financing>Home Refinancing
-Finance>Credit & Lending>Loans>Home Financing>Mortgages
-Finance>Credit & Lending>Loans>Personal Loans
-Finance>Credit & Lending>Loans>Student Loans & College Financing
-Finance>Credit & Lending>Loans>Vehicle Financing
-Finance>Credit & Lending>Loans>Vehicle Financing>Auto Financing
-Finance>Financial Planning & Management
-Finance>Financial Planning & Management>Asset & Portfolio Management
-Finance>Financial Planning & Management>Inheritance & Estate Planning
-Finance>Financial Planning & Management>Retirement & Pension
-Finance>Grants, Scholarships & Financial Aid
-Finance>Grants, Scholarships & Financial Aid>Government Grants
-Finance>Grants, Scholarships & Financial Aid>Study Grants & Scholarships
+Finance>Credit & Lending>Debt Management
+Finance>Credit & Lending>Home Financing
+Finance>Currencies & Foreign Exchange
+Finance>Financial Planning
+Finance>Grants & Financial Assistance
 Finance>Insurance
 Finance>Insurance>Auto Insurance
 Finance>Insurance>Health Insurance
 Finance>Insurance>Home Insurance
-Finance>Insurance>Life Insurance
-Finance>Insurance>Travel Insurance
-Finance>Insurance>Vehicle Insurance
-Finance>Insurance>Vehicle Insurance>Auto Insurance
 Finance>Investing
-Finance>Investing>Brokerages & Day Trading
 Finance>Investing>Commodities & Futures Trading
-Finance>Investing>Currencies & Foreign Exchange
-Finance>Investing>Derivatives
-Finance>Investing>Funds
-Finance>Investing>Funds>Exchange Traded Funds
-Finance>Investing>Funds>Hedge Funds
-Finance>Investing>Funds>Mutual Funds
-Finance>Investing>Real Estate Investment Trusts
-Finance>Investing>Socially Responsible Investing
-Finance>Investing>Stocks & Bonds
-Finance>Investing>Stocks & Bonds>Bonds
-Finance>Investing>Stocks & Bonds>Exchanges
 Finance>Retirement & Pension
-
 Food & Drink
-Food & Drink>Beverages
-Food & Drink>Beverages>Alcoholic Beverages
-Food & Drink>Beverages>Alcoholic Beverages>Beer
-Food & Drink>Beverages>Alcoholic Beverages>Wine
-Food & Drink>Beverages>Bottled Water
-Food & Drink>Beverages>Coffee & Tea
-Food & Drink>Beverages>Coffee & Tea>Coffee
-Food & Drink>Beverages>Coffee & Tea>Tea
-Food & Drink>Beverages>Juice
-Food & Drink>Beverages>Soft Drinks
+Food & Drink>Candy & Sweets
 Food & Drink>Cooking & Recipes
-Food & Drink>Cooking & Recipes>BBQ & Grilling
-Food & Drink>Cooking & Recipes>Cuisines
-Food & Drink>Cooking & Recipes>Cuisines>East Asian Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>East Asian Cuisine>Chinese Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>East Asian Cuisine>Japanese Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>East Asian Cuisine>Korean Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Eastern European Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>French Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>German Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Latin American Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Latin American Cuisine>Caribbean Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Latin American Cuisine>Mexican Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Latin American Cuisine>South American Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Mediterranean Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Mediterranean Cuisine>Greek Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Mediterranean Cuisine>Italian Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Mediterranean Cuisine>Spanish Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Middle Eastern Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>North American Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>South Asian Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>South Asian Cuisine>Indian Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Southeast Asian Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Southeast Asian Cuisine>Thai Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Southeast Asian Cuisine>Vietnamese Cuisine
-Food & Drink>Cooking & Recipes>Cuisines>Vegetarian Cuisine
-Food & Drink>Cooking & Recipes>Culinary Training
-Food & Drink>Cooking & Recipes>Desserts
-Food & Drink>Cooking & Recipes>Healthy Eating
-Food & Drink>Cooking & Recipes>Salads
+Food & Drink>Cooking & Recipes>Baked Goods
+Food & Drink>Cooking & Recipes>Fruits & Vegetables
+Food & Drink>Cooking & Recipes>Meat & Seafood
 Food & Drink>Cooking & Recipes>Soups & Stews
-Food & Drink>Food
-Food & Drink>Food>Baked Goods
-Food & Drink>Food>Breakfast Foods
-Food & Drink>Food>Candy & Sweets
-Food & Drink>Food>Condiments & Dressings
-Food & Drink>Food>Cooking Fats & Oils
-Food & Drink>Food>Dairy & Eggs
-Food & Drink>Food>Dairy & Eggs>Cheese
-Food & Drink>Food>Fruits & Vegetables
-Food & Drink>Food>Gourmet & Specialty Foods
-Food & Drink>Food>Grains & Pasta
-Food & Drink>Food>Herbs & Spices
-Food & Drink>Food>Jams, Jellies & Preserves
-Food & Drink>Food>Meat & Seafood
-Food & Drink>Food>Meat & Seafood>Beef
-Food & Drink>Food>Meat & Seafood>Fish & Seafood
-Food & Drink>Food>Meat & Seafood>Pork
-Food & Drink>Food>Meat & Seafood>Poultry
-Food & Drink>Food>Organic & Natural Foods
-Food & Drink>Food>Snack Foods
-Food & Drink>Food & Grocery Delivery
-Food & Drink>Food & Grocery Retailers
-Food & Drink>Food & Grocery Retailers>Bakeries
-Food & Drink>Food & Grocery Retailers>Butchers
-Food & Drink>Food & Grocery Retailers>Convenience Stores
-Food & Drink>Food & Grocery Retailers>Delicatessens
-Food & Drink>Food & Grocery Retailers>Farmers' Markets
+Food & Drink>Cooking & Recipes>Vegetarian Cuisine
+Food & Drink>Cooking & Recipes>World Cuisines
+Food & Drink>Cooking & Recipes>World Cuisines>Asian Cuisine
+Food & Drink>Cooking & Recipes>World Cuisines>Latin American Cuisine
+Food & Drink>Cooking & Recipes>World Cuisines>Mediterranean Cuisine
+Food & Drink>Cooking & Recipes>World Cuisines>North American Cuisine
+Food & Drink>Culinary Training
+Food & Drink>Grocery & Food Retailers
+Food & Drink>Non-Alcoholic Beverages
+Food & Drink>Non-Alcoholic Beverages>Coffee & Tea
 Food & Drink>Restaurants
-Food & Drink>Restaurants>Catering
 Food & Drink>Restaurants>Dining Guides
 Food & Drink>Restaurants>Fast Food
-Food & Drink>Restaurants>Fast Food>Burgers
-Food & Drink>Restaurants>Fine Dining
-Food & Drink>Restaurants>Pizzerias
-
 Games
 Games>Arcade & Coin-Op Games
 Games>Board Games
@@ -683,20 +544,13 @@ Games>Computer & Video Games>Gaming Media & Reference>Game Cheats & Hints
 Games>Computer & Video Games>Music & Dance Games
 Games>Computer & Video Games>Shooter Games
 Games>Computer & Video Games>Simulation Games
-Games>Computer & Video Games>Simulation Games>Business & Tycoon Games
-Games>Computer & Video Games>Simulation Games>City Building Games
-Games>Computer & Video Games>Simulation Games>Life Simulation Games
-Games>Computer & Video Games>Simulation Games>Vehicle Simulators
 Games>Computer & Video Games>Sports Games
-Games>Computer & Video Games>Sports Games>Sports Management Games
 Games>Computer & Video Games>Strategy Games
-Games>Computer & Video Games>Video Game Development
 Games>Computer & Video Games>Video Game Emulation
 Games>Computer & Video Games>Video Game Retailers
-Games>Dice Games
-Games>Educational Games
 Games>Family-Oriented Games & Activities
 Games>Family-Oriented Games & Activities>Drawing & Coloring
+Games>Family-Oriented Games & Activities>Dress-Up & Fashion Games
 Games>Online Games
 Games>Online Games>Massive Multiplayer
 Games>Party Games
@@ -705,9 +559,6 @@ Games>Roleplaying Games
 Games>Table Games
 Games>Table Games>Billiards
 Games>Table Games>Table Tennis
-Games>Tile Games
-Games>Word Games
-
 Health
 Health>Aging & Geriatrics
 Health>Aging & Geriatrics>Alzheimer's Disease
@@ -790,14 +641,10 @@ Health>Substance Abuse>Steroids & Performance-Enhancing Drugs
 Health>Vision Care
 Health>Vision Care>Eyeglasses & Contacts
 Health>Women's Health
-
 Hobbies & Leisure
 Hobbies & Leisure>Clubs & Organizations
-Hobbies & Leisure>Clubs & Organizations>Fraternal Orders & Service Clubs
-Hobbies & Leisure>Clubs & Organizations>Youth Organizations & Resources
 Hobbies & Leisure>Contests, Awards & Prizes
 Hobbies & Leisure>Crafts
-Hobbies & Leisure>Crafts>Ceramics & Pottery
 Hobbies & Leisure>Crafts>Fiber & Textile Arts
 Hobbies & Leisure>Outdoors
 Hobbies & Leisure>Outdoors>Equestrian
@@ -806,7 +653,6 @@ Hobbies & Leisure>Outdoors>Hiking & Camping
 Hobbies & Leisure>Outdoors>Hunting & Shooting
 Hobbies & Leisure>Paintball
 Hobbies & Leisure>Radio Control & Modeling
-Hobbies & Leisure>Radio Control & Modeling>Model Trains & Railroads
 Hobbies & Leisure>Recreational Aviation
 Hobbies & Leisure>Special Occasions
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events
@@ -814,10 +660,10 @@ Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Birthdays & Name 
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Carnival & Mardi Gras
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays>Christmas
-Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays>Easter 
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Christian Holidays>Easter
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Halloween & October 31st
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Islamic Holidays
-Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Jewish Holidays 
+Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Jewish Holidays
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>New Year
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Thanksgiving
 Hobbies & Leisure>Special Occasions>Holidays & Seasonal Events>Valentine's Day
@@ -826,7 +672,6 @@ Hobbies & Leisure>Water Activities
 Hobbies & Leisure>Water Activities>Boating
 Hobbies & Leisure>Water Activities>Diving & Underwater Activities
 Hobbies & Leisure>Water Activities>Surf & Swim
-
 Home & Garden
 Home & Garden>Bed & Bath
 Home & Garden>Bed & Bath>Bathroom
@@ -850,7 +695,6 @@ Home & Garden>Home Improvement>Construction & Power Tools
 Home & Garden>Home Improvement>Doors & Windows
 Home & Garden>Home Improvement>Flooring
 Home & Garden>Home Improvement>House Painting & Finishing
-Home & Garden>Home Improvement>Locks & Locksmiths
 Home & Garden>Home Improvement>Plumbing
 Home & Garden>Home Improvement>Roofing
 Home & Garden>Home Storage & Shelving
@@ -859,37 +703,23 @@ Home & Garden>Kitchen & Dining
 Home & Garden>Kitchen & Dining>Cookware & Diningware
 Home & Garden>Kitchen & Dining>Cookware & Diningware>Cutlery & Cutting Accessories
 Home & Garden>Kitchen & Dining>Major Kitchen Appliances
-Home & Garden>Kitchen & Dining>Major Kitchen Appliances>Dishwashers
-Home & Garden>Kitchen & Dining>Major Kitchen Appliances>Kitchen Hoods & Vents
-Home & Garden>Kitchen & Dining>Major Kitchen Appliances>Microwaves
-Home & Garden>Kitchen & Dining>Major Kitchen Appliances>Ranges, Cooktops & Ovens
-Home & Garden>Kitchen & Dining>Major Kitchen Appliances>Refrigerators & Freezers
 Home & Garden>Kitchen & Dining>Small Kitchen Appliances
-Home & Garden>Kitchen & Dining>Small Kitchen Appliances>Blenders
-Home & Garden>Kitchen & Dining>Small Kitchen Appliances>Bread Makers
-Home & Garden>Kitchen & Dining>Small Kitchen Appliances>Coffee & Espresso Makers
-Home & Garden>Kitchen & Dining>Small Kitchen Appliances>Food Processors
-Home & Garden>Kitchen & Dining>Small Kitchen Appliances>Toasters & Toaster Ovens
 Home & Garden>Laundry
 Home & Garden>Nursery & Playroom
 Home & Garden>Pest Control
 Home & Garden>Swimming Pools & Spas
 Home & Garden>Yard & Patio
-
 Internet & Telecom
 Internet & Telecom>Communications Equipment
 Internet & Telecom>Communications Equipment>Radio Equipment
 Internet & Telecom>Email & Messaging
-Internet & Telecom>Email & Messaging>Spam & Email Filtering
 Internet & Telecom>Email & Messaging>Text & Instant Messaging
 Internet & Telecom>Email & Messaging>Voice & Video Chat
 Internet & Telecom>Mobile & Wireless
 Internet & Telecom>Mobile & Wireless>Mobile & Wireless Accessories
 Internet & Telecom>Mobile & Wireless>Mobile & Wireless Accessories>Bluetooth Accessories
 Internet & Telecom>Mobile & Wireless>Mobile Apps & Add-Ons
-Internet & Telecom>Mobile & Wireless>Mobile Apps & Add-Ons>Android Apps
-Internet & Telecom>Mobile & Wireless>Mobile Apps & Add-Ons>Ringtones & Mobile Themes
-Internet & Telecom>Mobile & Wireless>Mobile Apps & Add-Ons>iOS Apps
+Internet & Telecom>Mobile & Wireless>Mobile Apps & Add-Ons>Ringtones & Mobile Goodies
 Internet & Telecom>Mobile & Wireless>Mobile Phones
 Internet & Telecom>Mobile & Wireless>Mobile Phones>Smart Phones
 Internet & Telecom>Search Engines
@@ -897,7 +727,6 @@ Internet & Telecom>Search Engines>People Search
 Internet & Telecom>Service Providers
 Internet & Telecom>Service Providers>Cable & Satellite Providers
 Internet & Telecom>Service Providers>ISPs
-Internet & Telecom>Service Providers>Internet Cafes
 Internet & Telecom>Service Providers>Phone Service Providers
 Internet & Telecom>Service Providers>Phone Service Providers>Calling Cards
 Internet & Telecom>Teleconferencing
@@ -905,49 +734,30 @@ Internet & Telecom>Web Apps & Online Tools
 Internet & Telecom>Web Portals
 Internet & Telecom>Web Services
 Internet & Telecom>Web Services>Affiliate Programs
-Internet & Telecom>Web Services>Hosted Data Storage
 Internet & Telecom>Web Services>Search Engine Optimization & Marketing
 Internet & Telecom>Web Services>Web Design & Development
 Internet & Telecom>Web Services>Web Hosting & Domain Registration
 Internet & Telecom>Web Services>Web Stats & Analytics
-
 Jobs & Education
 Jobs & Education>Education
 Jobs & Education>Education>Academic Conferences & Publications
 Jobs & Education>Education>Alumni & Reunions
 Jobs & Education>Education>Colleges & Universities
-Jobs & Education>Education>Colleges & Universities>Fraternities, Sororities & Student Societies
 Jobs & Education>Education>Distance Learning
 Jobs & Education>Education>Early Childhood Education
-Jobs & Education>Education>Early Childhood Education>Preschool
 Jobs & Education>Education>Homeschooling
 Jobs & Education>Education>Primary & Secondary Schooling (K-12)
 Jobs & Education>Education>Special Education
 Jobs & Education>Education>Standardized & Admissions Tests
 Jobs & Education>Education>Study Abroad
 Jobs & Education>Education>Teaching & Classroom Resources
-Jobs & Education>Education>Teaching & Classroom Resources>Lesson Plans
-Jobs & Education>Education>Teaching & Classroom Resources>School Supplies & Classroom Equipment
 Jobs & Education>Education>Training & Certification
 Jobs & Education>Education>Vocational & Continuing Education
 Jobs & Education>Education>Vocational & Continuing Education>Computer Education
-Jobs & Education>Internships
 Jobs & Education>Jobs
 Jobs & Education>Jobs>Career Resources & Planning
 Jobs & Education>Jobs>Job Listings
-Jobs & Education>Jobs>Job Listings>Accounting & Finance Jobs
-Jobs & Education>Jobs>Job Listings>Clerical & Administrative Jobs
-Jobs & Education>Jobs>Job Listings>Education Jobs
-Jobs & Education>Jobs>Job Listings>Executive & Management Jobs
-Jobs & Education>Jobs>Job Listings>Government & Public Sector Jobs
-Jobs & Education>Jobs>Job Listings>Health & Medical Jobs
-Jobs & Education>Jobs>Job Listings>IT & Technical Jobs
-Jobs & Education>Jobs>Job Listings>Legal Jobs
-Jobs & Education>Jobs>Job Listings>Retail Jobs
-Jobs & Education>Jobs>Job Listings>Sales & Marketing Jobs
-Jobs & Education>Jobs>Job Listings>Temporary & Seasonal Jobs
 Jobs & Education>Jobs>Resumes & Portfolios
-
 Law & Government
 Law & Government>Government
 Law & Government>Government>Courts & Judiciary
@@ -966,18 +776,18 @@ Law & Government>Government>State & Local Government
 Law & Government>Government>Visa & Immigration
 Law & Government>Legal
 Law & Government>Legal>Accident & Personal Injury Law
-Law & Government>Legal>Bankruptcy 
+Law & Government>Legal>Bankruptcy
 Law & Government>Legal>Business & Corporate Law
 Law & Government>Legal>Constitutional Law & Civil Rights
 Law & Government>Legal>Criminal Law
-Law & Government>Legal>Family Law 
+Law & Government>Legal>Family Law
 Law & Government>Legal>Intellectual Property
 Law & Government>Legal>Labor & Employment Law
 Law & Government>Legal>Legal Education
 Law & Government>Legal>Legal Services
 Law & Government>Legal>Product Liability
 Law & Government>Legal>Vehicle Codes & Driving Laws
-Law & Government>Legal>Vehicle Codes & Driving Laws>Drunk Driving Law 
+Law & Government>Legal>Vehicle Codes & Driving Laws>Drunk Driving Law
 Law & Government>Military
 Law & Government>Military>Air Force
 Law & Government>Military>Army
@@ -994,8 +804,7 @@ Law & Government>Public Safety>Law Enforcement
 Law & Government>Public Safety>Security Products & Services
 Law & Government>Social Services
 Law & Government>Social Services>Counseling Services
-Law & Government>Social Services>Welfare & Unemployment 
-
+Law & Government>Social Services>Welfare & Unemployment
 News
 News>Broadcast & Network News
 News>Business News
@@ -1017,20 +826,18 @@ News>Politics>Left-Wing Politics
 News>Politics>Media Critics & Watchdogs
 News>Politics>Opinion & Commentary
 News>Politics>Political Polls & Surveys
-News>Politics>Right-Wing Politics 
+News>Politics>Right-Wing Politics
 News>Sports News
 News>Technology News
 News>Weather
 News>World News
-
 Online Communities
 Online Communities>Blogging Resources & Services
 Online Communities>Blogging Resources & Services>Microblogging
 Online Communities>Dating & Personals
 Online Communities>Dating & Personals>Matrimonial Services
-Online Communities>Dating & Personals>Personals 
+Online Communities>Dating & Personals>Personals
 Online Communities>Dating & Personals>Photo Rating Sites
-Online Communities>Feed Aggregation & Social Bookmarking
 Online Communities>File Sharing & Hosting
 Online Communities>Forum & Chat Providers
 Online Communities>Online Goodies
@@ -1043,7 +850,6 @@ Online Communities>Photo & Video Sharing>Photo & Image Sharing
 Online Communities>Photo & Video Sharing>Video Sharing
 Online Communities>Social Networks
 Online Communities>Virtual Worlds
-
 People & Society
 People & Society>Disabled & Special Needs
 People & Society>Ethnic & Identity Groups
@@ -1061,7 +867,7 @@ People & Society>Ethnic & Identity Groups>Indigenous Peoples
 People & Society>Ethnic & Identity Groups>Indigenous Peoples>Native Americans
 People & Society>Ethnic & Identity Groups>Jewish Culture
 People & Society>Ethnic & Identity Groups>Latinos & Latin-Americans
-People & Society>Ethnic & Identity Groups>Western Europeans 
+People & Society>Ethnic & Identity Groups>Western Europeans
 People & Society>Family & Relationships
 People & Society>Family & Relationships>Etiquette
 People & Society>Family & Relationships>Family
@@ -1070,9 +876,7 @@ People & Society>Family & Relationships>Family>Baby & Pet Names
 People & Society>Family & Relationships>Family>Parenting
 People & Society>Family & Relationships>Family>Parenting>Adoption
 People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers
-People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby & Toddler Toys
 People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby Care & Hygiene
-People & Society>Family & Relationships>Family>Parenting>Babies & Toddlers>Baby Food & Formula
 People & Society>Family & Relationships>Family>Parenting>Child Care
 People & Society>Family & Relationships>Family>Parenting>Pregnancy & Maternity
 People & Society>Family & Relationships>Family>Parenting>Youth Camps
@@ -1080,7 +884,7 @@ People & Society>Family & Relationships>Friendship
 People & Society>Family & Relationships>Marriage
 People & Society>Family & Relationships>Romance
 People & Society>Family & Relationships>Troubled Relationships
-People & Society>Family & Relationships>Troubled Relationships>Divorce & Separation 
+People & Society>Family & Relationships>Troubled Relationships>Divorce & Separation
 People & Society>Men's Interests
 People & Society>Men's Interests>Men's Interests (Mature)
 People & Society>Religion & Belief
@@ -1097,23 +901,22 @@ People & Society>Religion & Belief>Self-Help & Motivational
 People & Society>Religion & Belief>Skeptics & Non-Believers
 People & Society>Religion & Belief>Spirituality
 People & Society>Religion & Belief>Theology & Religious Study
-People & Society>Seniors & Retirement 
+People & Society>Seniors & Retirement
 People & Society>Social Issues & Advocacy
 People & Society>Social Issues & Advocacy>Charity & Philanthropy
 People & Society>Social Issues & Advocacy>Discrimination & Identity Relations
 People & Society>Social Issues & Advocacy>Drug Laws & Policy
-People & Society>Social Issues & Advocacy>Ethics
-People & Society>Social Issues & Advocacy>Green Living & Environmental Issues
+People & Society>Social Issues & Advocacy>Environmental Issues
 People & Society>Social Issues & Advocacy>Housing & Development
+People & Society>Social Issues & Advocacy>Human Rights & Liberties
 People & Society>Social Issues & Advocacy>Immigration Policy & Border Issues
+People & Society>Social Issues & Advocacy>Poverty & Hunger
 People & Society>Social Issues & Advocacy>Privacy Issues
 People & Society>Social Issues & Advocacy>Reproductive Rights
-People & Society>Social Issues & Advocacy>Same-Sex Marriage 
+People & Society>Social Issues & Advocacy>Same-Sex Marriage
 People & Society>Social Issues & Advocacy>Work & Labor Issues
 People & Society>Social Issues & Advocacy>Work & Labor Issues>Unions & Labor Movement
 People & Society>Social Sciences
-People & Society>Social Sciences>Anthropology
-People & Society>Social Sciences>Archaeology
 People & Society>Social Sciences>Communications & Media Studies
 People & Society>Social Sciences>Communications & Media Studies>Public Speaking
 People & Society>Social Sciences>Demographics
@@ -1124,7 +927,6 @@ People & Society>Subcultures & Niche Interests
 People & Society>Subcultures & Niche Interests>Goth Subculture
 People & Society>Subcultures & Niche Interests>Science Fiction & Fantasy
 People & Society>Women's Interests
-
 Pets & Animals
 Pets & Animals>Animal Products & Services
 Pets & Animals>Animal Products & Services>Animal Welfare
@@ -1140,7 +942,6 @@ Pets & Animals>Pets>Horses
 Pets & Animals>Pets>Rabbits & Rodents
 Pets & Animals>Pets>Reptiles & Amphibians
 Pets & Animals>Wildlife
-
 Real Estate
 Real Estate>Apartments & Residential Rentals
 Real Estate>Bank-Owned & Foreclosed Properties
@@ -1151,7 +952,6 @@ Real Estate>Property Management
 Real Estate>Real Estate Agencies
 Real Estate>Real Estate Listings
 Real Estate>Timeshares & Vacation Properties
-
 Reference
 Reference>Directories & Listings
 Reference>Directories & Listings>Business & Personal Listings
@@ -1179,10 +979,7 @@ Reference>Language Resources>Foreign Language Resources
 Reference>Language Resources>Foreign Language Resources>Foreign Language Study
 Reference>Language Resources>Foreign Language Resources>Translation Tools & Resources
 Reference>Libraries & Museums
-Reference>Libraries & Museums>Libraries
-Reference>Libraries & Museums>Museums
 Reference>Technical Reference
-
 Science
 Science>Astronomy
 Science>Biological Sciences
@@ -1209,7 +1006,6 @@ Science>Mathematics>Statistics
 Science>Physics
 Science>Scientific Equipment
 Science>Scientific Institutions
-
 Shopping
 Shopping>Antiques & Collectibles
 Shopping>Apparel
@@ -1220,29 +1016,20 @@ Shopping>Apparel>Casual Apparel>T-Shirts
 Shopping>Apparel>Children's Clothing
 Shopping>Apparel>Clothing Accessories
 Shopping>Apparel>Clothing Accessories>Gems & Jewelry
-Shopping>Apparel>Clothing Accessories>Gems & Jewelry>Rings
 Shopping>Apparel>Clothing Accessories>Handbags & Purses
 Shopping>Apparel>Clothing Accessories>Watches
 Shopping>Apparel>Costumes
 Shopping>Apparel>Eyewear
-Shopping>Apparel>Eyewear>Sunglasses
 Shopping>Apparel>Footwear
-Shopping>Apparel>Footwear>Athletic Shoes
-Shopping>Apparel>Footwear>Boots
-Shopping>Apparel>Footwear>Casual Shoes
 Shopping>Apparel>Formal Wear
-Shopping>Apparel>Formal Wear>Bridal Wear
 Shopping>Apparel>Headwear
 Shopping>Apparel>Men's Clothing
 Shopping>Apparel>Outerwear
 Shopping>Apparel>Sleepwear
-Shopping>Apparel>Suits & Business Attire
 Shopping>Apparel>Swimwear
 Shopping>Apparel>Undergarments
 Shopping>Apparel>Uniforms & Workwear
 Shopping>Apparel>Women's Clothing
-Shopping>Apparel>Women's Clothing>Dresses
-Shopping>Apparel>Women's Clothing>Skirts
 Shopping>Auctions
 Shopping>Classifieds
 Shopping>Consumer Resources
@@ -1252,19 +1039,15 @@ Shopping>Consumer Resources>Customer Services
 Shopping>Consumer Resources>Customer Services>Loyalty Cards & Programs
 Shopping>Consumer Resources>Customer Services>Technical Support
 Shopping>Consumer Resources>Customer Services>Warranties & Service Contracts
-Shopping>Consumer Resources>Identity Theft & Protection
 Shopping>Consumer Resources>Product Reviews & Price Comparisons
 Shopping>Consumer Resources>Product Reviews & Price Comparisons>Price Comparisons
-Shopping>Discount & Outlet Stores
 Shopping>Entertainment Media
 Shopping>Entertainment Media>Entertainment Media Rentals
 Shopping>Gifts & Special Event Items
 Shopping>Gifts & Special Event Items>Cards & Greetings
-Shopping>Gifts & Special Event Items>Custom & Personalized Items
 Shopping>Gifts & Special Event Items>Flowers
 Shopping>Gifts & Special Event Items>Gifts
 Shopping>Gifts & Special Event Items>Party & Holiday Supplies
-Shopping>Green & Eco-Friendly Shopping
 Shopping>Luxury Goods
 Shopping>Mass Merchants & Department Stores
 Shopping>Photo & Video Services
@@ -1272,16 +1055,7 @@ Shopping>Photo & Video Services>Stock Photography
 Shopping>Shopping Portals & Search Engines
 Shopping>Swap Meets & Outdoor Markets
 Shopping>Toys
-Shopping>Toys>Action Figures
-Shopping>Toys>Building Toys
-Shopping>Toys>Die-cast & Toy Vehicles
-Shopping>Toys>Dolls & Accessories
-Shopping>Toys>Outdoor Toys & Play Equipment
-Shopping>Toys>Puppets
-Shopping>Toys>Ride-On Toys & Wagons
-Shopping>Toys>Stuffed Toys
 Shopping>Wholesalers & Liquidators
-
 Sports
 Sports>College Sports
 Sports>Combat Sports
@@ -1301,39 +1075,11 @@ Sports>Individual Sports>Running & Walking
 Sports>Individual Sports>Skate Sports
 Sports>Individual Sports>Track & Field
 Sports>Motor Sports
-Sports>Motor Sports>Auto Racing
-Sports>Motor Sports>Motorcycle Racing
-Sports>Sport Scores & Statistics
 Sports>Sporting Goods
-Sports>Sporting Goods>American Football Equipment
-Sports>Sporting Goods>Baseball Equipment
-Sports>Sporting Goods>Basketball Equipment
-Sports>Sporting Goods>Bowling Equipment
-Sports>Sporting Goods>Combat Sports Equipment
-Sports>Sporting Goods>Combat Sports Equipment>Boxing Gloves & Gear
-Sports>Sporting Goods>Combat Sports Equipment>Martial Arts Equipment
-Sports>Sporting Goods>Cricket Equipment
-Sports>Sporting Goods>Equestrian Equipment & Tack
-Sports>Sporting Goods>Golf Equipment
-Sports>Sporting Goods>Gymnastics Equipment
-Sports>Sporting Goods>Hockey Equipment
-Sports>Sporting Goods>Ice Skating Equipment
-Sports>Sporting Goods>Roller Skating & Rollerblading Equipment
-Sports>Sporting Goods>Skateboarding Equipment
-Sports>Sporting Goods>Soccer Equipment
 Sports>Sporting Goods>Sports Memorabilia
-Sports>Sporting Goods>Squash & Racquetball Equipment
-Sports>Sporting Goods>Table Tennis Equipment
-Sports>Sporting Goods>Tennis Equipment
-Sports>Sporting Goods>Volleyball Equipment
-Sports>Sporting Goods>Water Sports Equipment
-Sports>Sporting Goods>Winter Sports Equipment
-Sports>Sporting Goods>Winter Sports Equipment>Skiing Equipment
-Sports>Sporting Goods>Winter Sports Equipment>Snowboarding Gear
 Sports>Sports Coaching & Training
 Sports>Team Sports
 Sports>Team Sports>American Football
-Sports>Team Sports>Australian Football
 Sports>Team Sports>Baseball
 Sports>Team Sports>Basketball
 Sports>Team Sports>Cheerleading
@@ -1344,14 +1090,11 @@ Sports>Team Sports>Rugby
 Sports>Team Sports>Soccer
 Sports>Team Sports>Volleyball
 Sports>Water Sports
-Sports>Water Sports>Surfing
-Sports>Water Sports>Swimming
 Sports>Winter Sports
 Sports>Winter Sports>Ice Skating
 Sports>Winter Sports>Skiing & Snowboarding
 Sports>World Sports Competitions
 Sports>World Sports Competitions>Olympics
-
 Travel
 Travel>Air Travel
 Travel>Air Travel>Airport Parking & Transportation
@@ -1379,7 +1122,6 @@ Travel>Travel Agencies & Services
 Travel>Travel Agencies & Services>Tourist Boards & Visitor Centers
 Travel>Travel Agencies & Services>Vacation Offers
 Travel>Travel Guides & Travelogues
-
 World Localities
 World Localities>Africa
 World Localities>Africa>Eastern Africa
@@ -1631,8 +1373,6 @@ World Localities>Asia>Southeast Asia>Brunei
 World Localities>Asia>Southeast Asia>Cambodia
 World Localities>Asia>Southeast Asia>East Timor
 World Localities>Asia>Southeast Asia>Indonesia
-World Localities>Asia>Southeast Asia>Indonesia>Java (Indonesia)
-World Localities>Asia>Southeast Asia>Indonesia>Java (Indonesia)>Jakarta
 World Localities>Asia>Southeast Asia>Indonesia>Kalimantan
 World Localities>Asia>Southeast Asia>Indonesia>Maluku Islands
 World Localities>Asia>Southeast Asia>Indonesia>Nusa Tenggara
@@ -1673,25 +1413,8 @@ World Localities>Asia>West Asia>Qatar
 World Localities>Asia>West Asia>Saudi Arabia
 World Localities>Asia>West Asia>Syria
 World Localities>Asia>West Asia>Turkey
-World Localities>Asia>West Asia>Turkey>Aegean Turkey
-World Localities>Asia>West Asia>Turkey>Aegean Turkey>Izmir
-World Localities>Asia>West Asia>Turkey>Aegean Turkey>Muğla
-World Localities>Asia>West Asia>Turkey>Aegean Turkey>Muğla>Bodrum
-World Localities>Asia>West Asia>Turkey>Aegean Turkey>Pamukkale
-World Localities>Asia>West Asia>Turkey>Black Sea Turkey
-World Localities>Asia>West Asia>Turkey>Central Anatolia
-World Localities>Asia>West Asia>Turkey>Central Anatolia>Ankara
-World Localities>Asia>West Asia>Turkey>Central Anatolia>Cappadocia
-World Localities>Asia>West Asia>Turkey>Central Anatolia>Konya
-World Localities>Asia>West Asia>Turkey>Eastern Anatolia
-World Localities>Asia>West Asia>Turkey>Marmara Region
-World Localities>Asia>West Asia>Turkey>Marmara Region>Bursa
-World Localities>Asia>West Asia>Turkey>Marmara Region>Istanbul
-World Localities>Asia>West Asia>Turkey>Mediterranean Turkey
-World Localities>Asia>West Asia>Turkey>Mediterranean Turkey>Adana
-World Localities>Asia>West Asia>Turkey>Mediterranean Turkey>Antalya
-World Localities>Asia>West Asia>Turkey>Mediterranean Turkey>Mersin
-World Localities>Asia>West Asia>Turkey>Southeastern Anatolia
+World Localities>Asia>West Asia>Turkey>Ankara
+World Localities>Asia>West Asia>Turkey>Istanbul
 World Localities>Asia>West Asia>United Arab Emirates
 World Localities>Asia>West Asia>Yemen
 World Localities>Europe
@@ -1825,9 +1548,7 @@ World Localities>Europe>Southeastern Europe>Bosnia and Herzegovina
 World Localities>Europe>Southeastern Europe>Bulgaria
 World Localities>Europe>Southeastern Europe>Croatia
 World Localities>Europe>Southeastern Europe>Greece
-World Localities>Europe>Southeastern Europe>Greece>Aegean Islands
 World Localities>Europe>Southeastern Europe>Greece>Athens
-World Localities>Europe>Southeastern Europe>Greece>Crete
 World Localities>Europe>Southeastern Europe>Kosovo
 World Localities>Europe>Southeastern Europe>Montenegro
 World Localities>Europe>Southeastern Europe>Republic of Macedonia
@@ -1937,10 +1658,8 @@ World Localities>Latin America>Central America>Guatemala
 World Localities>Latin America>Central America>Honduras
 World Localities>Latin America>Central America>Mexico
 World Localities>Latin America>Central America>Mexico>Baja California
-World Localities>Latin America>Central America>Mexico>Baja California>Los Cabos
 World Localities>Latin America>Central America>Mexico>Baja California>Tijuana
 World Localities>Latin America>Central America>Mexico>Central Mexico
-World Localities>Latin America>Central America>Mexico>Central Mexico>Cuernavaca (Morelos)
 World Localities>Latin America>Central America>Mexico>Central Mexico>Guanajuato
 World Localities>Latin America>Central America>Mexico>Central Mexico>Mexico City
 World Localities>Latin America>Central America>Mexico>Central Mexico>Mexico State
@@ -1954,18 +1673,12 @@ World Localities>Latin America>Central America>Mexico>Northern Mexico>Tamaulipas
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Chiapas
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Guerrero
-World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Guerrero>Acapulco
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Jalisco
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Jalisco>Guadalajara
-World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Jalisco>Puerto Vallarta
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Michoacán
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Oaxaca
 World Localities>Latin America>Central America>Mexico>Pacific Coast (Mexico)>Sinaloa
 World Localities>Latin America>Central America>Mexico>Yucatán Peninsula
-World Localities>Latin America>Central America>Mexico>Yucatán Peninsula>Quintana Roo
-World Localities>Latin America>Central America>Mexico>Yucatán Peninsula>Quintana Roo>Cancún & Riviera Maya
-World Localities>Latin America>Central America>Mexico>Yucatán Peninsula>Yucatán
-World Localities>Latin America>Central America>Mexico>Yucatán Peninsula>Yucatán>Mérida
 World Localities>Latin America>Central America>Nicaragua
 World Localities>Latin America>Central America>Panama
 World Localities>Latin America>South America
@@ -2012,8 +1725,6 @@ World Localities>Latin America>South America>Chile>Santiago
 World Localities>Latin America>South America>Colombia
 World Localities>Latin America>South America>Colombia>Bogota
 World Localities>Latin America>South America>Ecuador
-World Localities>Latin America>South America>Ecuador>Galapagos Islands
-World Localities>Latin America>South America>Ecuador>Quito
 World Localities>Latin America>South America>French Guiana
 World Localities>Latin America>South America>Guyana
 World Localities>Latin America>South America>Paraguay
@@ -2072,12 +1783,9 @@ World Localities>North America>USA>Florida>Central Florida>Deltona-Daytona Beach
 World Localities>North America>USA>Florida>Central Florida>Greater Orlando
 World Localities>North America>USA>Florida>Central Florida>Tampa Bay Area
 World Localities>North America>USA>Florida>Florida Panhandle
-World Localities>North America>USA>Florida>Florida Panhandle>Tallahassee
 World Localities>North America>USA>Florida>North Florida
 World Localities>North America>USA>Florida>North Florida>Jacksonville
 World Localities>North America>USA>Florida>Southern Florida
-World Localities>North America>USA>Florida>Southern Florida>Florida Keys
-World Localities>North America>USA>Florida>Southern Florida>Fort Myers-Cape Coral
 World Localities>North America>USA>Florida>Southern Florida>South Florida Metro
 World Localities>North America>USA>Florida>Southern Florida>South Florida Metro>Broward-Fort Lauderdale
 World Localities>North America>USA>Florida>Southern Florida>South Florida Metro>Miami-Dade
@@ -2091,10 +1799,6 @@ World Localities>North America>USA>Great Plains (USA)>Oklahoma>Oklahoma City
 World Localities>North America>USA>Great Plains (USA)>Oklahoma>Tulsa
 World Localities>North America>USA>Great Plains (USA)>South Dakota
 World Localities>North America>USA>Hawaii
-World Localities>North America>USA>Hawaii>Big Island (Hawaii)
-World Localities>North America>USA>Hawaii>Kauai
-World Localities>North America>USA>Hawaii>Maui
-World Localities>North America>USA>Hawaii>Oahu
 World Localities>North America>USA>Mid-Atlantic (USA)
 World Localities>North America>USA>Mid-Atlantic (USA)>Delaware
 World Localities>North America>USA>Mid-Atlantic (USA)>Maryland
@@ -2170,7 +1874,6 @@ World Localities>North America>USA>South (USA)>North Carolina>Piedmont Triad
 World Localities>North America>USA>South (USA)>North Carolina>Raleigh-Durham
 World Localities>North America>USA>South (USA)>South Carolina
 World Localities>North America>USA>South (USA)>South Carolina>Greater Charleston (SC)
-World Localities>North America>USA>South (USA)>South Carolina>Myrtle Beach & Grand Strand
 World Localities>North America>USA>South (USA)>South Carolina>Upstate South Carolina
 World Localities>North America>USA>South (USA)>Tennessee
 World Localities>North America>USA>South (USA)>Tennessee>Memphis

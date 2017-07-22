@@ -18,7 +18,7 @@ def print_tree(tree):
     if tree is None:
         return
 
-    print(tree.category, len(tree.keywords))
+    print(tree.category)
     for c in tree.children:
         print_tree(c)
 
@@ -38,13 +38,13 @@ def find_and_add_child(cat, child, tree):
 
 
 def build_category_tree(infile):
-    df = pd.DataFrame(pd.read_json(infile))
-
     """
     Assumes input file is formatted as follows:
     Category1>Category2>...>CategoryX ...
     where everything is optional (blank lines are allowed)
     """
+    df = pd.DataFrame(pd.read_json(infile))
+
     data = df["category"]
     keywords = df["keywords"]
 
@@ -71,11 +71,6 @@ def build_category_tree(infile):
         find_and_add_child(cat, child, tree)
 
     return tree
-
-
-tree = build_category_tree("keywords.json")
-print_tree(tree)
-
 
 
 def clean(tree):
@@ -135,7 +130,7 @@ def count_tree(tr):
     if tr is None:
         return
     count = 1
-    print(tr.category)
+    # print(tr.category)
     for c in tr.children:
         count += count_tree(c)
 
@@ -147,8 +142,10 @@ def to_list(tr):
         return
 
     ls_keywords = [tr.keywords]
+
     for c in tr.children:
         ls_keywords += to_list(c)
+
     return ls_keywords
 
 

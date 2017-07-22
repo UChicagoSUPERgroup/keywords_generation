@@ -1,3 +1,4 @@
+
 def remove_duplicate(ls_ls):
     remove_dic = {}
 
@@ -16,3 +17,22 @@ def remove_duplicate(ls_ls):
 
     return new_ls
 
+
+def intersect(ls_ls):
+    if len(ls_ls) < 2:
+        return ls_ls
+
+    inter = set(ls_ls[0])
+
+    for ls in ls_ls:
+        inter = inter & set(ls)
+
+    return inter
+
+
+def remove_duplicate_2(ls_ls):
+    inter = intersect(ls_ls)
+    for i in range(0, len(ls_ls)):
+        ls_ls[i] = [ele for ele in ls_ls[i] if ele not in inter]
+
+    return ls_ls

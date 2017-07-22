@@ -9,12 +9,10 @@ def synonyms(word):
     syns = wn.synsets(word)
     res = []
     for x in syns:
-        print(x)
+        print(x.lemma_names())
         res += x.lemma_names()
 
-    res = [stemmer.stem(x) for x in res]
-    res = list(set(res))
+    # res = [stemmer.stem(x) for x in res]
+    # res = list(set(res))
 
     return res
-
-print(synonyms("ordered"))
