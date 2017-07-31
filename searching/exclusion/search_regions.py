@@ -1,6 +1,6 @@
 import re
 import time
-
+import os
 
 def timeit(method):
     def timed(*args, **kw):
@@ -15,12 +15,6 @@ def timeit(method):
     return timed
 
 
-with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/regions.txt", 'r') as f:
-    data = f.read()
-data = data.split(", ")
-restring = "|".join(data)
-
-
 def preprocess(text):
     '''Get only Captial Letters from the text'''
     caps = re.findall(r"[A-Z][a-z]+", text)
@@ -29,9 +23,12 @@ def preprocess(text):
     text = text.strip()
     return text
 
+with open(os.path.join(os.path.dirname(__file__), "regions.txt"), 'r') as f:
+    data = f.read()
+    data = data.split(", ")
+    restring = "|".join(data)
 
 def is_region(text):
-
     '''Search through the text for max two words'''
 
     text = preprocess(text)
@@ -58,13 +55,12 @@ def is_region(text):
     return False
 
 
-with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/name.txt", 'r') as f:
+with open(os.path.join(os.path.dirname(__file__), "name.txt"), 'r') as f:
     names = f.read()
 
 restring_name = "|".join(names.split(", "))
 
-with open("/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/searching/exclusion/exclude_ls.txt",
-          'r') as f:
+with open(os.path.join(os.path.dirname(__file__), "exclude_ls.txt"), 'r') as f:
     data2 = f.read()
 
 ap = ["\.com", "\.net", "Inc\."]
@@ -74,6 +70,7 @@ rstring = '|'.join(data)
 
 
 def is_spec(text):
+
     name_text = preprocess(text).split(" ")
 
     for word in name_text:

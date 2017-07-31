@@ -2,6 +2,7 @@ import re
 import sys
 import os
 import json
+import sys
 from nltk.stem import WordNetLemmatizer
 
 from extract.keywords import extract
@@ -33,6 +34,7 @@ def get_text(pageid, file):
         data = myfile.read()
     id_str = r"id=." + str(pageid) + ""
     a = re.search(id_str, data)
+
     if a is None:
         return
     data = data[a.start():]
@@ -70,7 +72,7 @@ def undup(seq):
     return [x for x in seq if not (x in seen or seen_add(x))]
 
 
-def quick_search_ids(lx, n_key=500):
+def quick_search_ids(lx, n_key=2000):
     res = []
     wnl = WordNetLemmatizer()
     for x in lx:
@@ -80,14 +82,10 @@ def quick_search_ids(lx, n_key=500):
     res = " ".join(res)
     ex = extract(res, n_key)
     ex = [x[0] for x in ex]
-    keywords = [wnl.lemmatize(word) for word in ex]
+    # keywords = [wnl.lemmatize(word) for word in ex]
+    # keywords = undup(keywords)
 
-    """Dis-order the whole keywords list to remove dupilcates"""
-
-    keywords = undup(keywords)
-
-    return keywords
+    return ex
 
 
-def anaylsis(infile, outfile):
-    df = pd.DataFrame(pd.read_json(infile))
+# print(quick_search("12"))

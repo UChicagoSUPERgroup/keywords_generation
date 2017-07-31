@@ -1,18 +1,10 @@
-from remove_duplicate import remove_duplicate_2
+from remove_duplicate import remove_duplicate_2, remove_duplicate
 from tree_struct import Node, build_category_tree, print_tree, to_list, count_tree
 import pandas as pd
 import json
+import sys
 
 import math
-
-
-def print_two_trees(tree1, tree2):
-    if tree1 is None or tree2 is None:
-        return
-
-    print(tree1.category, tree2.category)
-    for c1, c2 in zip(tree1.children, tree2.children):
-        print_two_trees(c1, c2)
 
 
 def remove_duplicate_tree(t):
@@ -27,7 +19,7 @@ def remove_duplicate_tree(t):
 
     for i, child in enumerate(t.children):
         child.keywords = children_ls[i]
-        # print(len(child.keywords))
+        print(len(child.keywords))
 
     for child in t.children:
         remove_duplicate_tree(child)
@@ -38,28 +30,31 @@ def remove_duplicate_tree(t):
 def post_process(infile, outfile):
     df = pd.DataFrame(pd.read_json(infile))
     category = df['category']
-    keyword_ls = df['keywords']
-    print(len(keyword_ls))
+    # keyword_ls = df['keywords']
+    # print(len(keyword_ls))
 
     t = build_category_tree(infile)
-
+    t = remove_duplicate_tree(t)
     keyword_ls = to_list(t)[1:]
-    print(len(keyword_ls))
+    # print(len(keyword_ls))
+
+    df = pd.DataFrame({"category": category, "keywords": keyword_ls})
+
+    whole_ls = []
+    for i in range(0, len(category)):
+        # print(i)
+        print(len(df['keywords'][i]))
+        cur_dir = {"category": df['category'][i], "keywords": df['keywords'][i]}
+        whole_ls.append(cur_dir)
+
+    with open(outfile, "w") as f:
+        json.dump(whole_ls, f)
+
+
+# post_process("keywords_80.json", "/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/inferencing/category/categories_80_c.json")
 
 
 
-
-    #
-    # df = pd.DataFrame({"category": category, "keywords": keyword_ls})
-    #
-    # whole_ls = []
-    # for i in range(0, len(category)):
-    #     print(i)
-    #     cur_dir = {"category": df['category'][i], "keywords": df['keywords'][i]}
-    #     whole_ls.append(cur_dir)
-    #
-    # with open(outfile, "w") as f:
-    #     json.dump(whole_ls, f)
 
 # post_process("keywords.json",
 #              "/Users/sixiongshan/Desktop/GitHub/trackingtransparency/extension/lib/inferencing_data/categories.json")

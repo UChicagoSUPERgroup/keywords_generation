@@ -1,9 +1,9 @@
 import ast
 import json
 import re
-import sys
+import os
 import pandas as pd
-from re_search import quick_search_ids
+from re_search import quick_search_ids, quick_search
 
 
 def is_english(word):
@@ -27,7 +27,8 @@ def get_keywords(infile, outfile):
 
         keywords = quick_search_ids(ids)
         keywords = [key for key in keywords if is_english(key)]
-        print(keywords)
+        print(len(keywords))
+        print(keywords[:50])
 
         cur_ls = [cat[i], keywords]
 
@@ -37,7 +38,12 @@ def get_keywords(infile, outfile):
     df_out.to_csv(outfile)
 
 
-# get_keywords("total_pageids2.csv", "total_keywords.csv")
+# get_keywords("total_wikipedia_articles_40.csv", "total_keyword_wikipage_40.csv")
+# get_keywords("total_wikipedia_articles_60.csv", "total_keyword_wikipage_60.csv")
+# get_keywords("total_wikipedia_articles_80.csv", "total_keyword_wikipage_80.csv")
+# get_keywords("total_wikipedia_articles_100.csv", "total_keyword_wikipage_100.csv")
+
+
 
 
 def post_process(infile, outfile):
@@ -57,8 +63,36 @@ def post_process(infile, outfile):
         print(i)
         cur_dir = {"category": df['category'][i], "keywords": df['keywords'][i]}
         whole_ls.append(cur_dir)
-    with open("keywords.json", "w") as f:
+    with open(outfile, "w") as f:
         json.dump(whole_ls, f)
 
 
-post_process("total_keywords.csv", "keywords.json")
+# post_process("total_keyword_wikipage_100.csv", "tree_implement/keywords_100.json")
+# post_process("total_keyword_wikipage_60.csv", "tree_implement/keywords_60.json")
+
+
+def get_text_files(infile, outdir):
+    if not os.path.exists(outdir):
+        os.makedirs(outdir)
+    with open("../data/interest.txt", 'r') as f:
+        cat = f.read()
+    cat = [word for word in cat.split('\n') if word is not ""]
+
+    df = pd.DataFrame(pd.read_csv(infile))
+    for i in range(0, len(df['pageids'])):
+        print(cat[i])
+        cur_dir = outdir + "/" + cat[i]
+        if not os.path.exists(cur_dir):
+            os.makedirs(cur_dir)
+
+        ids = ast.literal_eval(df['pageids'][i])
+        ids = [int(x) for x in ids]
+
+        for id in ids:
+            cur_text = quick_search(id)
+
+            with open(cur_dir + "/" + str(id), "w") as f:
+                f.write(cur_text)
+
+
+# get_text_files("total_wikipedia_articles.csv", "article_files")

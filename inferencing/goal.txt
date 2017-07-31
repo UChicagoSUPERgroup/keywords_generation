@@ -1,0 +1,29 @@
+1. Number of keywords in 0 — 2000 (10 each)
+2. Number of wikipedia pages 50 - 200 (50 each)
+3. Ways to extract text, (Readability vs bs4)
+4. Mini Map - One, Two, Three Levels
+5. Testing with Score, and without Score
+6. Remove Keywords, two ways to remove
+7. Ways of searching: Wikipedia, Google Search
+
+
+Task1:
+
+1. Generate wikipageds 20, 40, 60, 80, 100, 200
+2. Generate 2000 keywords for each wikipage
+
+Task2:
+
+Implement css-parsing extract page
+
+Task3:
+
+Implement multi-level search
+
+Task4:
+
+Implement Google Search
+
+Task 5:
+
+Test on these
