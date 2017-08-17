@@ -1,6 +1,6 @@
 from key.tree_implement import build_category_tree, print_tree, to_list, count_tree
 import math
-from read_text import get_text_more
+from read_text import get_text_from_url
 import pandas as pd
 
 

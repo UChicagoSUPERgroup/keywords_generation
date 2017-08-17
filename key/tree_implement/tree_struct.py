@@ -18,7 +18,7 @@ def print_tree(tree):
     if tree is None:
         return
 
-    print(tree.category)
+    print(tree.category, "  ", len(tree.keywords))
     for c in tree.children:
         print_tree(c)
 
@@ -97,33 +97,29 @@ def clean(tree):
 #     return tree
 
 
-def merge_tree(tree, n_key=500):
+def merge_tree(tree, n_key=2000):
     if tree.children == []:
         return
     keys = []
     for c in tree.children:
         merge_tree(c)
-
     n_children = len(tree.children)
-    for i in range(0, n_key * n_children):
+    for i in range(0, n_key):
         index = i % n_children
         ind = math.floor(i / n_children)
         cur = tree.children[index]
         try:
             cur_keys = cur.keywords[ind]
+            keys.append(cur_keys)
         except IndexError:
-            print(ind)
-            exit(1)
-        keys.append(cur_keys)
-
-    s = set(keys)
-    s = list(s)
-    tree.keywords = s[:int(n_key / 2)] + tree.keywords[:int(n_key / 2)]
+            # print(ind)
+            break
+    s = keys
+    # s = set(keys)
+    # s = list(s)
+    tree.keywords = s[:int(n_key)]
 
     return tree
-
-
-# tree = merge_tree(tree)
 
 
 def count_tree(tr):
@@ -165,11 +161,12 @@ def score(tree):
     l_set = len(ls)
     return 1 - ((l_list - l_set) / l_list)
 
-#
-# def merge_tree_file(tree, outfile):
-#     tree = clean(tree)
-#     tree = merge_tree(tree, 300)
-#     df2 = pd.DataFrame({"Category": cat, "keywords": to_list(tree)[1:]})
-#     df2.to_csv(outfile)
 
-# merge_tree_file(tree, "merge_300.csv")
+def merge_tree_file(infile, outfile):
+    tree = build_category_tree(infile)
+    df = pd.DataFrame(pd.read_json(infile))
+    cat = df['category']
+    tree = merge_tree(tree, 2000)
+    print_tree(tree)
+    df2 = pd.DataFrame({"category": cat, "keywords": to_list(tree)[1:]})
+    df2.to_csv(outfile)

@@ -2,6 +2,8 @@ import re
 import sys
 import os
 import json
+from nltk.stem import SnowballStemmer
+
 import sys
 from nltk.stem import WordNetLemmatizer
 
@@ -72,7 +74,7 @@ def undup(seq):
     return [x for x in seq if not (x in seen or seen_add(x))]
 
 
-def quick_search_ids(lx, n_key=2000):
+def quick_search_ids(lx, n_key=1000):
     res = []
     wnl = WordNetLemmatizer()
     for x in lx:
@@ -80,12 +82,11 @@ def quick_search_ids(lx, n_key=2000):
         l = quick_search(x)
         res.append(l)
     res = " ".join(res)
+
     ex = extract(res, n_key)
+
     ex = [x[0] for x in ex]
     # keywords = [wnl.lemmatize(word) for word in ex]
     # keywords = undup(keywords)
 
     return ex
-
-
-# print(quick_search("12"))

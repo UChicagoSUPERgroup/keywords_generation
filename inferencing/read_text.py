@@ -4,84 +4,64 @@ from nltk.stem import WordNetLemmatizer
 import urllib.request
 import urllib.error
 import pandas as pd
+from nltk.stem import SnowballStemmer
+
 import requests
+from nltk import word_tokenize
+from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
 import re
+import string
 import time
 
 
-def timeit(method):
-    def timed(*args, **kw):
-        ts = time.time()
-        result = method(*args, **kw)
-        te = time.time()
+def preprocess_text_for_inference(text):
+    tokens = word_tokenize(text)
+    tokens = [
+        t.lower()
+        for t in tokens
+        if t not in stopwords.words("english") and t not in string.punctuation
+    ]
+    # return tokens
+    stemmer = SnowballStemmer('english')
+    whole_ls = []
+    for token in tokens:
+        token = stemmer.stem(token)
+        whole_ls.append(token)
 
-        print('%r  %2.2f sec' % \
-              (method.__name__, te - ts))
-        return result
-
-    return timed
-MERCURY_API = 'https://mercury.postlight.com/parser?url='
+    return whole_ls
 
 
-def get_text(url):
-    MERCURY_API = 'https://mercury.postlight.com/parser?url='
+USERAGENT = "'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'"
 
-    key = "w2K2KogZrhKJpK9Z8KxaT9yaZ52uG9zgNMZk49Ut"
 
-    url = '{0}{1}'.format(MERCURY_API, url)
-    headers = {'x-api-key': key}
-    s = requests.Session()
-    r = s.get(url, headers=headers)
-    text = re.sub(r"<[^>]*>", "", r.text)
-    d = json.loads(text)
-    text = '{0} {1}'.format(d.get("title"), d.get("content"))
-    text = " ".join(re.findall(r"[A-Za-z ]+", text)).lower()
-    text = text.split()
+def get_text_from_url(url):
+    headers = {
+        'User-Agent': USERAGENT,
+    }
 
-    return text
+    html = requests.get(url, headers=headers).text
 
-print(get_text("https://www.grubhub.com/"))
+    html = re.sub(r"<!--(.|\s|\n)*?-->", "", html)
 
-# @timeit
-def get_text_more(url):
-    html = requests.get(url).text
-    # print(html)
+    soup = BeautifulSoup(html, "lxml")
 
-    html = "".join(line.strip() for line in html.split("\n"))
-    extract_comments = re.sub(r"<!--(.*?)-->", "", html)
-    soup = BeautifulSoup(extract_comments, "lxml")
+    body = soup.find("body")
+
+    if body is not None:
+        soup = body
+
     data = soup.findAll(text=True)
 
-    # print(data)
-    # [print(s) for s in data if s.parent.name == "p"]
-    # print(set([(s.parent.name) for s in data]))
-    def visible(element):
-        if element.parent.name in ['style', 'script', '[document]', 'head', 'title', 'form']:
+    def filter_tags(tag):
+        if tag.parent.name in ['style', 'script', '[document]', 'head', 'title', 'footer']:
             return False
-        elif re.match(r"<!--(.*?)-->", str(element.encode('utf-8'))):
-            return False
+        classes = tag.findParents(class_=True)[:3]
+        for c in classes:
+            if "footer" in c:
+                return False
         return True
 
-    result = " ".join(filter(visible, data))
-    text = " ".join(re.findall(r"[A-Za-z ]+", result)).lower()
-    text = text.split()
-    return text
+    result = filter(filter_tags, data)
 
-
-print(len(get_text_more("https://www.cnn.com/")))
-
-
-# def compare_extract(infile):
-#     df = pd.DataFrame(pd.read_json(infile))
-#     urls = df['url']
-#     for url in urls:
-#         print(url)
-#         time1 = get_text(url)
-#         time2 = get_text_more(url)
-#         if time2 is None:
-#             print("None")
-#             continue
-#         print(len(time1), len(time2))
-
-# compare_extract("test_set_save_text.json")
+    return preprocess_text_for_inference(" ".join(list(result)))

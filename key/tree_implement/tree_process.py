@@ -1,4 +1,4 @@
-from remove_duplicate import remove_duplicate_2, remove_duplicate
+from remove_duplicate import remove_duplicate, remove_duplicate
 from tree_struct import Node, build_category_tree, print_tree, to_list, count_tree
 import pandas as pd
 import json
@@ -15,7 +15,7 @@ def remove_duplicate_tree(t):
 
     for child in t.children:
         children_ls.append(child.keywords)
-    children_ls = remove_duplicate_2(children_ls)
+    children_ls = remove_duplicate(children_ls)
 
     for i, child in enumerate(t.children):
         child.keywords = children_ls[i]
@@ -39,7 +39,6 @@ def post_process(infile, outfile):
     # print(len(keyword_ls))
 
     df = pd.DataFrame({"category": category, "keywords": keyword_ls})
-
     whole_ls = []
     for i in range(0, len(category)):
         # print(i)
@@ -50,11 +49,10 @@ def post_process(infile, outfile):
     with open(outfile, "w") as f:
         json.dump(whole_ls, f)
 
+#
+# infile = "/Users/sixiongshan/Desktop/keywords_generation/inferencing/category/categories_10.json"
+# post_process(infile, infile)
 
-# post_process("keywords_80.json", "/Users/sixiongshan/Desktop/GitHub/geosearch/keywords_generation/inferencing/category/categories_80_c.json")
+post_process("total_keyword_new.csv.json", "total_keyword_new.json")
 
-
-
-
-# post_process("keywords.json",
-#              "/Users/sixiongshan/Desktop/GitHub/trackingtransparency/extension/lib/inferencing_data/categories.json")
+# post_process("keywords_10.json", "/Users/sixiongshan/Desktop/GitHub/trackingtransparency/extension/lib/inferencing_data/categories.json")

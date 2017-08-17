@@ -46,6 +46,7 @@ def extract(txt, num):
         x[0] for x in pos_tokens
         if x[1].startswith("N") or x[1].startswith("J")
     ]
+    filtered_tokens = [stemmer.stem(token) for token in filtered_tokens]
 
     # cleaned_tokens = [
     #        t[0] 

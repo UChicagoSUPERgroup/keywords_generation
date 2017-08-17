@@ -5,6 +5,12 @@ import pandas as pd
 from timeit import timeit
 from urllib.parse import quote_plus
 from exclusion.search_regions import is_region, is_spec
+
+url = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&list=search&indexpageids=1&srsearch=china&srnamespace=0&srlimit=10&srinfo=totalhits%7Csuggestion%7Crewrittenquery&srprop=wordcount%7Csnippet"
+html = requests.get(url)
+print(html.text)
+
+
 # from nltk.stem import WordNetLemmatizer
 
 
@@ -26,6 +32,7 @@ from exclusion.search_regions import is_region, is_spec
 #     words = " ".join(words)
 #
 #     return words
+
 
 
 def uncode(code):
@@ -86,6 +93,7 @@ def get_pageid(ls):
 
 @timeit
 def wikisearch(keyword, exclude=True, exclude_region=True):
+
     ''' Get a list of the wikipedia pages from
     searching the one category, and cut the unrelated '''
 
@@ -93,7 +101,7 @@ def wikisearch(keyword, exclude=True, exclude_region=True):
     Make a query to the wikipedia API
     '''
 
-    base = "https://en.wikipedia.org/w/api.php?action=query&srlimit=500&list=search&format=json&srsearch=" + keyword
+    base = "https://en.wikipedia.org/w/api.php?action=query&srlimit=500&list=search&format=json&indexpageids=1&srsearch=" + keyword
 
     f = requests.get(base)
     content = f.text
@@ -152,7 +160,6 @@ def wikisearch(keyword, exclude=True, exclude_region=True):
 
 
 def get_pageid_titles(titles):
-
     '''
     Because the API limited the amount of page query to 50, seperate all the pages
      to groups of 40s and preform query to get the pageid for each page
@@ -176,23 +183,6 @@ def get_pageid_titles(titles):
 
     return [titles, total_pageids]
 
-
-# def get_search_terms(infile):
-#     with open(infile, "r") as f:
-#         categories = f.read().split("\n")
-#
-#     new_category = []
-#     for word in categories:
-#
-#         word = word.split(">")[-1]
-#         word = singular(word)
-#         word = word.split(" ")
-#
-#         word = " ".join([x[0].upper() + x[1:] for x in word]).replace("&", "and")
-#
-#         new_category.append(word)
-#
-#     return new_category
 
 def get_search_terms(infile):
     with open(infile, "r") as f:
@@ -220,7 +210,6 @@ def generate(infile, outfile):
     categories = get_category(infile)
     search_terms = get_search_terms(infile)
     to = len(categories)
-    print(to)
     df = pd.DataFrame({"category": [""] * to, "titles": [[]] * to, "pageids": [[]] * to})
     for i in range(0, to):
         print(search_terms[i])
@@ -245,5 +234,4 @@ def generate(infile, outfile):
 
     df.to_csv(outfile)
 
-
-generate("../data/interest.txt", "total_wikipedia_articles_100.csv")
+# generate("../data/interest.txt", "total_wikipedia_articles_20.csv")

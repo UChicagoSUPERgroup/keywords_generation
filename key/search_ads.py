@@ -27,7 +27,6 @@ def get_keywords(infile, outfile):
 
         keywords = quick_search_ids(ids)
         keywords = [key for key in keywords if is_english(key)]
-        print(len(keywords))
         print(keywords[:50])
 
         cur_ls = [cat[i], keywords]
@@ -38,13 +37,11 @@ def get_keywords(infile, outfile):
     df_out.to_csv(outfile)
 
 
-# get_keywords("total_wikipedia_articles_40.csv", "total_keyword_wikipage_40.csv")
+# get_keywords("total_wikipedia_20.csv", "total_keyword_new.csv")
+# get_keywords("total_wiki.csv", "total_keyword_wikipage.csv")
 # get_keywords("total_wikipedia_articles_60.csv", "total_keyword_wikipage_60.csv")
 # get_keywords("total_wikipedia_articles_80.csv", "total_keyword_wikipage_80.csv")
 # get_keywords("total_wikipedia_articles_100.csv", "total_keyword_wikipage_100.csv")
-
-
-
 
 def post_process(infile, outfile):
     df = pd.DataFrame(pd.read_csv(infile))
@@ -67,7 +64,9 @@ def post_process(infile, outfile):
         json.dump(whole_ls, f)
 
 
-# post_process("total_keyword_wikipage_100.csv", "tree_implement/keywords_100.json")
+post_process("total_keyword_new.csv", "tree_implement/total_keyword_new.csv.json")
+
+
 # post_process("total_keyword_wikipage_60.csv", "tree_implement/keywords_60.json")
 
 
@@ -76,11 +75,13 @@ def get_text_files(infile, outdir):
         os.makedirs(outdir)
     with open("../data/interest.txt", 'r') as f:
         cat = f.read()
+
     cat = [word for word in cat.split('\n') if word is not ""]
 
     df = pd.DataFrame(pd.read_csv(infile))
     for i in range(0, len(df['pageids'])):
         print(cat[i])
+
         cur_dir = outdir + "/" + cat[i]
         if not os.path.exists(cur_dir):
             os.makedirs(cur_dir)
@@ -95,4 +96,4 @@ def get_text_files(infile, outdir):
                 f.write(cur_text)
 
 
-# get_text_files("total_wikipedia_articles.csv", "article_files")
+                # get_text_files("combined.csv", "article_files")
