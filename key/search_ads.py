@@ -7,6 +7,7 @@ from re_search import quick_search_ids, quick_search
 
 
 def is_english(word):
+    '''Filter keywords to exclude unicode and any other non english words'''
     match = re.findall(r'[A-Za-z]', word)
     if len(match) == len(word):
         return True
@@ -15,6 +16,9 @@ def is_english(word):
 
 
 def get_keywords(infile, outfile):
+
+    '''Extract keywords for all ad interest category'''
+
     with open("../data/interest.txt", 'r') as f:
         cat = f.read()
     cat = [word for word in cat.split('\n') if word is not ""]
@@ -38,12 +42,10 @@ def get_keywords(infile, outfile):
 
 
 # get_keywords("total_wikipedia_20.csv", "total_keyword_new.csv")
-# get_keywords("total_wiki.csv", "total_keyword_wikipage.csv")
-# get_keywords("total_wikipedia_articles_60.csv", "total_keyword_wikipage_60.csv")
-# get_keywords("total_wikipedia_articles_80.csv", "total_keyword_wikipage_80.csv")
-# get_keywords("total_wikipedia_articles_100.csv", "total_keyword_wikipage_100.csv")
+
 
 def post_process(infile, outfile):
+    ''''''
     df = pd.DataFrame(pd.read_csv(infile))
 
     for i in range(0, len(df['keywords'])):

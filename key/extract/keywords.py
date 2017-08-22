@@ -9,23 +9,8 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 import networkx as nx
 from bs4 import BeautifulSoup
-import time
 
 
-def timeit(method):
-    def timed(*args, **kw):
-        ts = time.time()
-        result = method(*args, **kw)
-        te = time.time()
-
-        print('%r  %2.2f sec' % \
-              (method.__name__, te - ts))
-        return result
-
-    return timed
-
-
-@timeit
 def extract(txt, num):
     # initialize stemmer
     # stemmer = PorterStemmer()
